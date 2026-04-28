@@ -4,14 +4,19 @@ Software engineer focused on TypeScript, Python, developer tooling, and AI-assis
 
 I build small, practical tools around Codex, MCP, automation, and local developer productivity. My public work is centered on making coding agents easier to operate, observe, and integrate into real engineering workflows.
 
+[![codex-keyring npm](https://img.shields.io/npm/v/codex-keyring?label=codex-keyring)](https://www.npmjs.com/package/codex-keyring)
+[![codex-keyring downloads](https://img.shields.io/npm/dm/codex-keyring?label=downloads)](https://www.npmjs.com/package/codex-keyring)
+[![codex-observatory npm](https://img.shields.io/npm/v/codex-observatory?label=codex-observatory)](https://www.npmjs.com/package/codex-observatory)
+[![codex-observatory downloads](https://img.shields.io/npm/dm/codex-observatory?label=downloads)](https://www.npmjs.com/package/codex-observatory)
+
 ## Open source work
 
-| Project | Role | Focus |
-| --- | --- | --- |
-| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Multi-account manager for Codex with alias switching and failover support. |
-| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. |
-| [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction. |
-| [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. |
+| Project | Role | Focus | Package |
+| --- | --- | --- | --- |
+| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Multi-account manager for Codex with alias switching and failover support. | [npm](https://www.npmjs.com/package/codex-keyring) |
+| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. | [npm](https://www.npmjs.com/package/codex-observatory) |
+| [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction. | - |
+| [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. | - |
 
 ## Recent OSS contributions
 
