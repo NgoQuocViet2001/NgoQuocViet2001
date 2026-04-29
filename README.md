@@ -130,11 +130,9 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 | [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction. | - |
 | [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. | - |
 
-## Selected OSS pull requests
+## Merged OSS contributions
 
-- [cline/cline#10384](https://github.com/cline/cline/pull/10384) - capped excessive retry-after delays to avoid silent multi-hour hangs.
-- [slidevjs/slidev#2562](https://github.com/slidevjs/slidev/pull/2562) - fixed base-path handling for monorepo sub-directory deployments.
-- [davila7/claude-code-templates#551](https://github.com/davila7/claude-code-templates/pull/551) - fixed broken relative links in CLI documentation.
+- [CJackHwang/ds2api#359](https://github.com/CJackHwang/ds2api/pull/359) - fixed OpenAI citation/reference marker replacement so one-based citations are not shifted by zero-based references.
 
 ## GitHub activity
 
