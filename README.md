@@ -132,13 +132,24 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 
 ## Merged OSS contributions
 
-- [CJackHwang/ds2api#359](https://github.com/CJackHwang/ds2api/pull/359) - fixed OpenAI citation/reference marker replacement so one-based citations are not shifted by zero-based references.
+Tracked from merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-05-08.
+
+| Project | PR | Contribution | Merged |
+| --- | --- | --- | --- |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#457](https://github.com/CJackHwang/ds2api/pull/457) | Avoided repeated lowercasing in tool-call XML ignored-section parsing, improving performance and preserving byte offsets. | 2026-05-08 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#431](https://github.com/mksglu/context-mode/pull/431) | Fixed inline upgrade fallback to copy the package file list and preserve statusline binary payloads. | 2026-05-07 |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#430](https://github.com/CJackHwang/ds2api/pull/430) | Changed OpenAI stream keep-alives to SSE comments only, avoiding empty `choices` chunks for strict clients. | 2026-05-05 |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#421](https://github.com/CJackHwang/ds2api/pull/421) | Added config-backed Vercel sync credential reuse while keeping sync payloads clean. | 2026-05-04 |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#404](https://github.com/CJackHwang/ds2api/pull/404) | Added OpenAI-compatible uploaded file metadata retrieval endpoints and documentation. | 2026-05-02 |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#378](https://github.com/CJackHwang/ds2api/pull/378) | Added root OpenAI route aliases for clients configured with a bare service URL. | 2026-04-29 |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#373](https://github.com/CJackHwang/ds2api/pull/373) | Returned `400 Bad Request` for inline file limit validation instead of surfacing a generic server error. | 2026-04-29 |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#359](https://github.com/CJackHwang/ds2api/pull/359) | Fixed OpenAI citation/reference marker replacement so one-based citations are not shifted by zero-based references. | 2026-04-29 |
+| [HyFrog/insight](https://github.com/HyFrog/insight) | [#19](https://github.com/HyFrog/insight/pull/19) | Contributed status-management work. | 2023-10-31 |
 
 ## GitHub activity
 
 <div align="center">
-  <img height="168" src="https://github-readme-stats.vercel.app/api?username=NgoQuocViet2001&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" alt="Ngo Quoc Viet GitHub stats" />
-  <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NgoQuocViet2001&layout=compact&theme=transparent&hide_border=true&langs_count=10" alt="Ngo Quoc Viet top languages" />
+  <img src="./assets/github-activity.svg" alt="Ngo Quoc Viet GitHub activity summary" width="900" />
 </div>
 
 <div align="center">
