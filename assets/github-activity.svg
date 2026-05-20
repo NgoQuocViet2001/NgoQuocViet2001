@@ -1,13 +1,13 @@
 <svg width="900" height="310" viewBox="0 0 900 310" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Ngo Quoc Viet GitHub activity summary</title>
-  <desc id="desc">Static GitHub activity snapshot for public repositories, stars, external merged pull requests, and top non-fork repository languages.</desc>
+  <desc id="desc">Static GitHub activity snapshot for public repositories, stars, external merged pull requests, and top source repository languages.</desc>
   <rect x="1" y="1" width="898" height="308" rx="8" fill="#ffffff" stroke="#d0d7de"/>
   <text x="32" y="44" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">GitHub activity snapshot</text>
-  <text x="32" y="70" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13">Public GitHub data for NgoQuocViet2001. Updated 2026-05-08.</text>
+  <text x="32" y="70" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13">Public GitHub data for NgoQuocViet2001. Updated 2026-05-20.</text>
 
   <rect x="32" y="98" width="194" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="52" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">PUBLIC REPOS</text>
-  <text x="52" y="158" fill="#0969da" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">23</text>
+  <text x="52" y="158" fill="#0969da" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">31</text>
 
   <rect x="248" y="98" width="194" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="268" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">TOTAL STARS</text>
@@ -15,13 +15,13 @@
 
   <rect x="464" y="98" width="194" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="484" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">EXTERNAL MERGED PRS</text>
-  <text x="484" y="158" fill="#1a7f37" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">9</text>
+  <text x="484" y="158" fill="#1a7f37" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">16</text>
 
   <rect x="680" y="98" width="188" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="700" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">OWN PUBLIC REPOS</text>
+  <text x="700" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">SOURCE REPOS</text>
   <text x="700" y="158" fill="#cf222e" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">11</text>
 
-  <text x="32" y="215" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Top languages in non-fork public repos</text>
+  <text x="32" y="215" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Top languages in source public repos</text>
 
   <text x="32" y="245" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Vue</text>
   <rect x="122" y="233" width="700" height="12" rx="6" fill="#d0d7de"/>

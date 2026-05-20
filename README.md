@@ -36,14 +36,15 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 
 ## Featured builds
 
-| Product / Project | Focus | Link |
-| --- | --- | --- |
-| Codex Keyring | Multi-account Codex manager with aliases, health checks, and failover support. | [GitHub](https://github.com/NgoQuocViet2001/codex-keyring) |
-| Codex Observatory | Local Codex usage analytics, token trends, model breakdowns, and productivity dashboard. | [GitHub](https://github.com/NgoQuocViet2001/codex-observatory) |
-| Google Workspace MCP | MCP server for structured Google Docs and Sheets extraction. | [GitHub](https://github.com/NgoQuocViet2001/google-workspace-mcp) |
-| CAJ and Document Converter | Desktop tool for unlimited CAJ to PDF conversion and multi-format document conversion. | [Portfolio](https://viet-ngo.hinadau.vip) |
-| AI Chat Bridge | App for connecting AI workflows to Discord and Telegram with simple team operation. | [Portfolio](https://viet-ngo.hinadau.vip) |
-| HR Management App | Practical HR management app for small and medium businesses. | [Portfolio](https://viet-ngo.hinadau.vip) |
+| Product / Project | Focus | Signal | Link |
+| --- | --- | --- | --- |
+| Codex Keyring | Native multi-account manager for Codex with aliases, health checks, and failover support. | 25 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-keyring) |
+| Codex Observatory | Local Codex usage analytics, token trends, model breakdowns, and productivity dashboard. | 9 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-observatory) |
+| Google Workspace MCP | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 stars | [GitHub](https://github.com/NgoQuocViet2001/google-workspace-mcp) |
+| Dev Setup | Reproducible local development setup scripts for faster machine bootstrap. | 1 star | [GitHub](https://github.com/NgoQuocViet2001/dev-setup) |
+| CAJ and Document Converter | Desktop tool for unlimited CAJ to PDF conversion and multi-format document conversion. | Product build | [Portfolio](https://viet-ngo.hinadau.vip) |
+| AI Chat Bridge | App for connecting AI workflows to Discord and Telegram with simple team operation. | Product build | [Portfolio](https://viet-ngo.hinadau.vip) |
+| HR Management App | Practical HR management app for small and medium businesses. | Product build | [Portfolio](https://viet-ngo.hinadau.vip) |
 
 ## Delivery highlights
 
@@ -123,19 +124,26 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 
 ## Open source work
 
-| Project | Role | Focus | Package |
-| --- | --- | --- | --- |
-| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Multi-account manager for Codex with alias switching and failover support. | [npm](https://www.npmjs.com/package/codex-keyring) |
-| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. | [npm](https://www.npmjs.com/package/codex-observatory) |
-| [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction. | - |
-| [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. | - |
+| Project | Role | Focus | Stars | Package |
+| --- | --- | --- | --- | --- |
+| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Native multi-account manager for Codex with alias switching, health checks, and failover support. | 25 | [npm](https://www.npmjs.com/package/codex-keyring) |
+| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. | 9 | [npm](https://www.npmjs.com/package/codex-observatory) |
+| [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 | - |
+| [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. | 1 | - |
 
 ## Merged OSS contributions
 
-Tracked from merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-05-08.
+Tracked from merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-05-20. Total tracked external merged PRs: 16.
 
 | Project | PR | Contribution | Merged |
 | --- | --- | --- | --- |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2229](https://github.com/tinyhumansai/openhuman/pull/2229) | Enabled single-instance deep-link forwarding so already-running desktop apps receive OAuth callbacks from second launches. | 2026-05-19 |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | [#617](https://github.com/ruvnet/RuView/pull/617) | Recognized swarm provisioning flags as valid config input and covered ESP32 swarm CSV generation with tests. | 2026-05-19 |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#180](https://github.com/Anil-matcha/Open-Generative-AI/pull/180) | Clarified Muapi access-key creation and copy guidance in desktop onboarding and README. | 2026-05-18 |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#174](https://github.com/Anil-matcha/Open-Generative-AI/pull/174) | Added custom local AI storage directory support and surfaced resolved model paths in settings. | 2026-05-18 |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#1997](https://github.com/tinyhumansai/openhuman/pull/1997) | Added HMR teardown for renderer boot services and online/offline listener cleanup in Vite dev sessions. | 2026-05-17 |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | [#602](https://github.com/ruvnet/RuView/pull/602) | Documented the ESP32 mesh-to-sensing-server path that powers dashboard and Observatory views. | 2026-05-17 |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#483](https://github.com/CJackHwang/ds2api/pull/483) | Stripped leaked DeepSeek tool-result and control markers from OpenAI-compatible visible output. | 2026-05-10 |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#457](https://github.com/CJackHwang/ds2api/pull/457) | Avoided repeated lowercasing in tool-call XML ignored-section parsing, improving performance and preserving byte offsets. | 2026-05-08 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#431](https://github.com/mksglu/context-mode/pull/431) | Fixed inline upgrade fallback to copy the package file list and preserve statusline binary payloads. | 2026-05-07 |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#430](https://github.com/CJackHwang/ds2api/pull/430) | Changed OpenAI stream keep-alives to SSE comments only, avoiding empty `choices` chunks for strict clients. | 2026-05-05 |
