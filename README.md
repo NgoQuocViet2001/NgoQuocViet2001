@@ -23,6 +23,12 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 - Hands-on with AWS, Linux, VPS environments, CI/CD, and deployment pipelines for staging and production systems.
 - Strong foundation in JavaScript, TypeScript, C#, Node.js, React, Vue, ASP.NET, Laravel, Python, PHP, Java, Go, Rust, and SQL.
 
+## Current OSS focus
+
+- Dogfooding Codex, MCP, and Windows developer workflows in real projects.
+- Contributing maintainer-style fixes to `mksglu/context-mode`, including Codex marketplace approval mode, Codex doctor diagnostics, fetch cache TTL support, and upgrade fallback fixes.
+- Improving AI-agent adjacent tooling: local observability, multi-account Codex workflows, OpenAI-compatible APIs, desktop OAuth/deep-link flows, and Linux packaging details.
+
 ## Freelance focus
 
 | Need | What can be delivered |
@@ -38,7 +44,7 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 
 | Product / Project | Focus | Signal | Link |
 | --- | --- | --- | --- |
-| Codex Keyring | Native multi-account manager for Codex with aliases, health checks, and failover support. | 25 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-keyring) |
+| Codex Keyring | Native multi-account manager for Codex with aliases, health checks, and failover support. | 26 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-keyring) |
 | Codex Observatory | Local Codex usage analytics, token trends, model breakdowns, and productivity dashboard. | 9 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-observatory) |
 | Google Workspace MCP | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 stars | [GitHub](https://github.com/NgoQuocViet2001/google-workspace-mcp) |
 | Dev Setup | Reproducible local development setup scripts for faster machine bootstrap. | 1 star | [GitHub](https://github.com/NgoQuocViet2001/dev-setup) |
@@ -126,17 +132,25 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 
 | Project | Role | Focus | Stars | Package |
 | --- | --- | --- | --- | --- |
-| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Native multi-account manager for Codex with alias switching, health checks, and failover support. | 25 | [npm](https://www.npmjs.com/package/codex-keyring) |
+| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Native multi-account manager for Codex with alias switching, health checks, and failover support. | 26 | [npm](https://www.npmjs.com/package/codex-keyring) |
 | [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. | 9 | [npm](https://www.npmjs.com/package/codex-observatory) |
 | [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 | - |
 | [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. | 1 | - |
 
 ## Merged OSS contributions
 
-Tracked from merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-05-20. Total tracked external merged PRs: 16.
+Tracked from public merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-05-25. Total tracked external merged PRs: 23.
 
 | Project | PR | Contribution | Merged |
 | --- | --- | --- | --- |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#704](https://github.com/mksglu/context-mode/pull/704) | Added Codex marketplace MCP approval defaults and regression coverage, with manual Codex plugin validation. | 2026-05-25 |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2572](https://github.com/tinyhumansai/openhuman/pull/2572) | Hardened RPC bearer token checks with constant-time comparison and prefix-match regression tests. | 2026-05-25 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#686](https://github.com/mksglu/context-mode/pull/686) | Reported Codex standalone doctor status accurately instead of showing a misleading not-installed state. | 2026-05-24 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#666](https://github.com/mksglu/context-mode/pull/666) | Added per-call cache TTL support to `ctx_fetch_and_index`, including cache bypass and schema coverage. | 2026-05-23 |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2407](https://github.com/tinyhumansai/openhuman/pull/2407) | Improved embedded core startup timeout cleanup, diagnostics, cancellation, and retry readiness. | 2026-05-23 |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2498](https://github.com/tinyhumansai/openhuman/pull/2498) | Included the Linux `libxdo3` runtime dependency in Debian packaging metadata. | 2026-05-23 |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#196](https://github.com/Anil-matcha/Open-Generative-AI/pull/196) | Kept default WAN2GP endpoints available when endpoint metadata is absent. | 2026-05-22 |
+| [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | [#143](https://github.com/supertone-inc/supertonic/pull/143) | Documented the `--speed` flag across Go, Rust, Java, and Swift argument tables. | 2026-05-21 |
 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2229](https://github.com/tinyhumansai/openhuman/pull/2229) | Enabled single-instance deep-link forwarding so already-running desktop apps receive OAuth callbacks from second launches. | 2026-05-19 |
 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | [#617](https://github.com/ruvnet/RuView/pull/617) | Recognized swarm provisioning flags as valid config input and covered ESP32 swarm CSV generation with tests. | 2026-05-19 |
 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#180](https://github.com/Anil-matcha/Open-Generative-AI/pull/180) | Clarified Muapi access-key creation and copy guidance in desktop onboarding and README. | 2026-05-18 |
@@ -152,7 +166,6 @@ Tracked from merged external pull requests authored by `NgoQuocViet2001`. Last u
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#378](https://github.com/CJackHwang/ds2api/pull/378) | Added root OpenAI route aliases for clients configured with a bare service URL. | 2026-04-29 |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#373](https://github.com/CJackHwang/ds2api/pull/373) | Returned `400 Bad Request` for inline file limit validation instead of surfacing a generic server error. | 2026-04-29 |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#359](https://github.com/CJackHwang/ds2api/pull/359) | Fixed OpenAI citation/reference marker replacement so one-based citations are not shifted by zero-based references. | 2026-04-29 |
-| [HyFrog/insight](https://github.com/HyFrog/insight) | [#19](https://github.com/HyFrog/insight/pull/19) | Contributed status-management work. | 2023-10-31 |
 
 ## GitHub activity
 
