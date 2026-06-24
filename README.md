@@ -2,146 +2,67 @@
 
 <div align="center">
 
-![Ngo Quoc Viet - Tech Lead / Fullstack Developer](https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F766E,55:0F172A,100:0369A1&text=Ngo%20Quoc%20Viet&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=Tech%20Lead%20%2F%20Fullstack%20Developer%20for%20custom%20tools%2C%20apps%2C%20web%20and%20automation&descSize=16&descAlignY=58)
+![Ngo Quoc Viet - Community OSS Contributor](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:111827,45:0F766E,100:0369A1&text=Ngo%20Quoc%20Viet&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=Community%20OSS%20contributor%20for%20AI%20developer%20tooling%2C%20MCP%2C%20Codex%2C%20desktop%20apps%2C%20and%20DX%20reliability&descSize=15&descAlignY=58)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-0F766E?style=for-the-badge&logo=vercel&logoColor=white)](https://viet-ngo.hinadau.vip)
 [![GitHub](https://img.shields.io/badge/GitHub-NgoQuocViet2001-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NgoQuocViet2001)
-[![Zalo](https://img.shields.io/badge/Zalo-0971933518-0068FF?style=for-the-badge&logo=zalo&logoColor=white)](https://zalo.me/0971933518)
-[![Facebook](https://img.shields.io/badge/Facebook-ngoquocviet2001-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ngoquocviet2001/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-0F766E?style=for-the-badge&logo=vercel&logoColor=white)](https://viet-ngo.hinadau.vip)
 [![AWS SAA](https://img.shields.io/badge/AWS_SAA-861%2F1000-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/b9822361-43e5-40f3-a590-a3c56a1a1d59)
+[![Zalo](https://img.shields.io/badge/Zalo-0971933518-0068FF?style=for-the-badge&logo=zalo&logoColor=white)](https://zalo.me/0971933518)
 
 </div>
 
-## Building practical software that removes manual work
+## Community OSS Work
 
-Fullstack Developer with nearly 4 years of experience across product and outsourced projects, with project-level Dev Lead responsibility in healthcare systems.
+I spend a lot of my engineering time contributing practical fixes to public open-source projects, especially tools used by developers, AI coding agents, MCP servers, desktop apps, and OpenAI-compatible workflows.
 
-- Strong sense of ownership, discipline, careful reporting, and continuous improvement.
-- Specialized in building custom tools, internal apps, web systems, desktop utilities, extensions, automation flows, and AI-assisted workflows.
-- Comfortable taking features from requirement clarification, architecture, implementation, review, deployment, and operation support.
-- Experienced with project bootstrapping, clean source structure, reusable components, Git flow, PR review, code quality, mentoring, and internal training.
-- Hands-on with AWS, Linux, VPS environments, CI/CD, and deployment pipelines for staging and production systems.
-- Strong foundation in JavaScript, TypeScript, C#, Node.js, React, Vue, ASP.NET, Laravel, Python, PHP, Java, Go, Rust, and SQL.
+My usual contribution style is small but real maintenance work: reproduce an issue, inspect the current behavior, ship a narrow fix, add regression coverage when possible, and stay around for review or follow-up fixes.
 
-## Current OSS focus
+## Public OSS Snapshot
 
-- Dogfooding Codex, MCP, and Windows developer workflows in real projects.
-- Contributing maintainer-style fixes and reviews to `mksglu/context-mode`, including Codex marketplace/plugin behavior, Windows-safe installs, Claude/Codex execution paths, insight analytics, doctor diagnostics, fetch cache TTL support, and upgrade fallback fixes.
-- Reviewing upstream `context-mode` PRs, validating Windows + Codex behavior for contributor changes, and shipping follow-up fixes when dogfooding exposes gaps.
-- Improving AI-agent adjacent tooling across local observability, multi-account Codex workflows, OpenAI-compatible APIs, desktop OAuth/deep-link flows, monorepo deployment paths, and Linux packaging details.
+Public GitHub data for `NgoQuocViet2001`, refreshed 2026-06-24.
 
-## Freelance focus
+| Metric | Count | Notes |
+| --- | ---: | --- |
+| External merged PRs | 36 | Authored PRs merged into community-owned repositories. |
+| Community repositories contributed to | 8 | `context-mode`, `openhuman`, `ds2api`, `Open-Generative-AI`, `RuView`, `Slidev`, `Spec Kit`, `Supertonic`. |
+| External open PRs | 14 | Active public work still under maintainer review. |
+| PR conversations with review/comment activity | 30 | Public PR threads where I participated in review, debugging, validation, or follow-up discussion. |
+| Formal reviewed PRs | 6 | Public GitHub review records visible through GitHub search. |
+| `mksglu/context-mode` merged PRs | 13 | Main current OSS focus. |
+| `mksglu/context-mode` PR discussions | 13 | Review/comment activity in the project around Codex, Windows, docs, and MCP behavior. |
 
-| Need | What can be delivered |
+<div align="center">
+  <img src="./assets/github-activity.svg" alt="Ngo Quoc Viet GitHub activity summary" width="900" />
+</div>
+
+## Core Maintainer-Level Focus: context-mode
+
+[`mksglu/context-mode`](https://github.com/mksglu/context-mode) is my main OSS focus right now. I contribute as a core maintainer-level contributor for the Windows + Codex + MCP surface: dogfooding the project in real Codex sessions, fixing cross-platform issues, validating contributor changes, and sending follow-up patches when the docs or runtime drift.
+
+Project signal: **18.1k+ stars**, **1.2k+ forks**, published on [npm](https://www.npmjs.com/package/context-mode).
+
+| Area | Examples |
 | --- | --- |
-| Custom tools | File converters, data cleanup tools, reporting tools, workflow assistants, internal utilities. |
-| Web apps | Admin portals, dashboards, booking systems, HR systems, survey systems, internal management apps. |
-| Automation | Excel processing, repetitive browser work, deployment helpers, notification bots, data sync jobs. |
-| Desktop apps | Lightweight Windows utilities, file processing apps, integration tools, business operation helpers. |
-| AI workflows | Prompted workflows for BA, QC, developer productivity, document generation, test case generation. |
-| Cloud delivery | Deployable applications with CI/CD, Linux/Nginx, AWS design, VPS setup, monitoring-ready structure. |
+| Codex plugin reliability | Marketplace/plugin approval defaults, platform env propagation, Windows-safe plugin installs, Zed/Codex docs sync. |
+| Windows execution | PowerShell, `pwsh`, `cmd`, Git Bash, WSL-bash fallback paths, symlink-restricted environments, junction-based tests. |
+| MCP/runtime correctness | `ctx_execute` cwd behavior, cross-project attribution, fetch cache TTL, upgrade fallback safety. |
+| Observability and diagnostics | Insight analytics totals, standalone Codex doctor status, plugin/server detection behavior. |
+| Maintainer support | Review/comment activity, manual Windows + Codex validation, concise issue triage, follow-up patches after maintainer requests. |
 
-## Featured builds
+## Community Contribution Highlights
 
-| Product / Project | Focus | Signal | Link |
-| --- | --- | --- | --- |
-| Codex Keyring | Native multi-account manager for Codex with aliases, health checks, and failover support. | 29 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-keyring) |
-| Codex Observatory | Local Codex usage analytics, token trends, model breakdowns, and productivity dashboard. | 10 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-observatory) |
-| Google Workspace MCP | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 stars | [GitHub](https://github.com/NgoQuocViet2001/google-workspace-mcp) |
-| Dev Setup | Reproducible local development setup scripts for faster machine bootstrap. | 1 star | [GitHub](https://github.com/NgoQuocViet2001/dev-setup) |
-| CAJ and Document Converter | Desktop tool for unlimited CAJ to PDF conversion and multi-format document conversion. | Product build | [Portfolio](https://viet-ngo.hinadau.vip) |
-| AI Chat Bridge | App for connecting AI workflows to Discord and Telegram with simple team operation. | Product build | [Portfolio](https://viet-ngo.hinadau.vip) |
-| HR Management App | Practical HR management app for small and medium businesses. | Product build | [Portfolio](https://viet-ngo.hinadau.vip) |
+| Project | Merged PRs | What I helped with |
+| --- | ---: | --- |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 13 | Codex/MCP reliability, Windows execution, plugin install behavior, analytics, cache, docs, and maintainer follow-up fixes. |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | 8 | OpenAI-compatible API behavior, streamed responses, citation replacement, tool output cleanup, Vercel sync, and file metadata routes. |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 6 | Desktop OAuth/deep links, auth callback compatibility, runtime packaging, startup cleanup, and security hardening. |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 4 | Local AI model storage, onboarding docs, WAN2GP endpoint fallback, and startup heartbeat feedback. |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | 2 | ESP32 swarm config validation and mesh-to-dashboard documentation. |
+| [github/spec-kit](https://github.com/github/spec-kit) | 1 | Development extension agent symlink handling. |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | 1 | Monorepo sub-directory deployment route generation. |
+| [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | 1 | Multi-language CLI option documentation. |
 
-## Delivery highlights
-
-- Built FE + BE source bases for a multi-tenant healthcare platform, with per-client customization and separate tenant databases.
-- Led implementation guidance and code review in a 60-member project team.
-- Managed delivery across 4 product modules: booking, medical record management, administrator operations, and promotion/survey.
-- Built AI workflows for BA business-design generation, QC test case generation, and developer implementation support.
-- Organized project-level and department-level sharing sessions about development workflow, code quality, and AI-assisted work.
-- Designed CI/CD workflows with GitHub Actions for company VPS environments and supported AWS HLD planning for staging/production.
-
-## Tech stack
-
-### Main development stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,vue,nextjs,vite,tailwind,cs,dotnet,php,laravel,python,java,go,rust&perline=8" alt="Main development stack" />
-</p>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-### Database, cloud, deployment
-
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,aws,docker,nginx,linux,githubactions,jenkins,vercel,git,github,figma,postman,vscode&perline=8" alt="Database cloud deployment tools" />
-</p>
-
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=111827)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![AWS CodeBuild](https://img.shields.io/badge/AWS_CodeBuild-FF9900?style=flat-square&logo=amazonaws&logoColor=111827)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel&logoColor=white)
-
-### AI, productivity, collaboration
-
-![Codex](https://img.shields.io/badge/Codex-111827?style=flat-square&logo=openai&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-111827?style=flat-square&logo=cursor&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square&logo=openai&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-111827?style=flat-square&logo=githubcopilot&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-0F766E?style=flat-square)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
-![Code Review](https://img.shields.io/badge/Code_Review-2563EB?style=flat-square)
-![Mentoring](https://img.shields.io/badge/Mentoring-7C3AED?style=flat-square)
-![Internal Training](https://img.shields.io/badge/Internal_Training-0F766E?style=flat-square)
-
-## Certifications
-
-- [AWS Certified Solutions Architect - Associate (861/1000)](https://www.credly.com/badges/b9822361-43e5-40f3-a590-a3c56a1a1d59)
-- HackerRank JavaScript Basic
-- HackerRank JavaScript Intermediate
-- HackerRank Python Basic
-
-## Open source work
-
-| Project | Role | Focus | Stars | Package |
-| --- | --- | --- | --- | --- |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | Maintainer-style contributor and reviewer | Codex and Windows MCP reliability, marketplace/plugin behavior, cross-project execution, insight analytics, fetch cache, upgrade safety, and upstream PR review. | 18.1k+ | [npm](https://www.npmjs.com/package/context-mode) |
-| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Native multi-account manager for Codex with alias switching, health checks, and failover support. | 29 | [npm](https://www.npmjs.com/package/codex-keyring) |
-| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. | 10 | [npm](https://www.npmjs.com/package/codex-observatory) |
-| [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 | - |
-| [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. | 1 | - |
-
-## Merged OSS contributions
-
-Tracked from public merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-06-24. Total tracked external merged PRs: 36.
+## Recent Merged PRs
 
 | Project | PR | Contribution | Merged |
 | --- | --- | --- | --- |
@@ -155,51 +76,52 @@ Tracked from public merged external pull requests authored by `NgoQuocViet2001`.
 | [github/spec-kit](https://github.com/github/spec-kit) | [#2554](https://github.com/github/spec-kit/pull/2554) | Fixed `--dev` extension agent symlinks so development extension installs link the expected agent files. | 2026-05-28 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#722](https://github.com/mksglu/context-mode/pull/722) | Set platform environment for the Codex plugin MCP server so bundled runtime behavior matches the host platform. | 2026-05-26 |
 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#200](https://github.com/Anil-matcha/Open-Generative-AI/pull/200) | Showed local-AI startup heartbeat while models load so users see progress instead of a silent startup delay. | 2026-05-26 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#709](https://github.com/mksglu/context-mode/pull/709) | Hardened Windows shell execution for PowerShell, pwsh, cmd, Git Bash, and WSL-bash fallback paths so shell MCP calls run reliably under restricted execution policies. | 2026-05-25 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#709](https://github.com/mksglu/context-mode/pull/709) | Hardened Windows shell execution for PowerShell, `pwsh`, `cmd`, Git Bash, and WSL-bash fallback paths. | 2026-05-25 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#706](https://github.com/mksglu/context-mode/pull/706) | Counted insight analytics KPI totals from uncapped aggregate queries instead of capped dashboard detail lists. | 2026-05-25 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#705](https://github.com/mksglu/context-mode/pull/705) | Made `ctx_insight` CORS tests use Windows junctions for temporary `node_modules` links when symlink privileges are unavailable. | 2026-05-25 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#705](https://github.com/mksglu/context-mode/pull/705) | Made `ctx_insight` CORS tests use Windows junctions when symlink privileges are unavailable. | 2026-05-25 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#704](https://github.com/mksglu/context-mode/pull/704) | Added Codex marketplace MCP approval defaults and regression coverage, with manual Codex plugin validation. | 2026-05-25 |
 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2572](https://github.com/tinyhumansai/openhuman/pull/2572) | Hardened RPC bearer token checks with constant-time comparison and prefix-match regression tests. | 2026-05-25 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#686](https://github.com/mksglu/context-mode/pull/686) | Reported Codex standalone doctor status accurately instead of showing a misleading not-installed state. | 2026-05-24 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#666](https://github.com/mksglu/context-mode/pull/666) | Added per-call cache TTL support to `ctx_fetch_and_index`, including cache bypass and schema coverage. | 2026-05-23 |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2407](https://github.com/tinyhumansai/openhuman/pull/2407) | Improved embedded core startup timeout cleanup, diagnostics, cancellation, and retry readiness. | 2026-05-23 |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2498](https://github.com/tinyhumansai/openhuman/pull/2498) | Included the Linux `libxdo3` runtime dependency in Debian packaging metadata. | 2026-05-23 |
-| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#196](https://github.com/Anil-matcha/Open-Generative-AI/pull/196) | Kept default WAN2GP endpoints available when endpoint metadata is absent. | 2026-05-22 |
-| [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | [#143](https://github.com/supertone-inc/supertonic/pull/143) | Documented the `--speed` flag across Go, Rust, Java, and Swift argument tables. | 2026-05-21 |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2229](https://github.com/tinyhumansai/openhuman/pull/2229) | Enabled single-instance deep-link forwarding so already-running desktop apps receive OAuth callbacks from second launches. | 2026-05-19 |
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | [#617](https://github.com/ruvnet/RuView/pull/617) | Recognized swarm provisioning flags as valid config input and covered ESP32 swarm CSV generation with tests. | 2026-05-19 |
-| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#180](https://github.com/Anil-matcha/Open-Generative-AI/pull/180) | Clarified Muapi access-key creation and copy guidance in desktop onboarding and README. | 2026-05-18 |
-| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#174](https://github.com/Anil-matcha/Open-Generative-AI/pull/174) | Added custom local AI storage directory support and surfaced resolved model paths in settings. | 2026-05-18 |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#1997](https://github.com/tinyhumansai/openhuman/pull/1997) | Added HMR teardown for renderer boot services and online/offline listener cleanup in Vite dev sessions. | 2026-05-17 |
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | [#602](https://github.com/ruvnet/RuView/pull/602) | Documented the ESP32 mesh-to-sensing-server path that powers dashboard and Observatory views. | 2026-05-17 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#483](https://github.com/CJackHwang/ds2api/pull/483) | Stripped leaked DeepSeek tool-result and control markers from OpenAI-compatible visible output. | 2026-05-10 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#457](https://github.com/CJackHwang/ds2api/pull/457) | Avoided repeated lowercasing in tool-call XML ignored-section parsing, improving performance and preserving byte offsets. | 2026-05-08 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#431](https://github.com/mksglu/context-mode/pull/431) | Fixed inline upgrade fallback to copy the package file list and preserve statusline binary payloads. | 2026-05-07 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#430](https://github.com/CJackHwang/ds2api/pull/430) | Changed OpenAI stream keep-alives to SSE comments only, avoiding empty `choices` chunks for strict clients. | 2026-05-05 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#421](https://github.com/CJackHwang/ds2api/pull/421) | Added config-backed Vercel sync credential reuse while keeping sync payloads clean. | 2026-05-04 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#404](https://github.com/CJackHwang/ds2api/pull/404) | Added OpenAI-compatible uploaded file metadata retrieval endpoints and documentation. | 2026-05-02 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#378](https://github.com/CJackHwang/ds2api/pull/378) | Added root OpenAI route aliases for clients configured with a bare service URL. | 2026-04-29 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#373](https://github.com/CJackHwang/ds2api/pull/373) | Returned `400 Bad Request` for inline file limit validation instead of surfacing a generic server error. | 2026-04-29 |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#359](https://github.com/CJackHwang/ds2api/pull/359) | Fixed OpenAI citation/reference marker replacement so one-based citations are not shifted by zero-based references. | 2026-04-29 |
 
-## OSS review activity
+## Contribution Themes
 
-- Reviewing contributor PRs in `mksglu/context-mode`, especially changes around batch search scope, cache observability, plugin-cache healing, Zed/Codex docs, and cross-platform MCP behavior.
-- Validating Windows + Codex flows with real local dogfooding, then turning the findings into focused fixes, regression tests, and maintainer-ready review notes.
-- Recent external PRs also cover OpenHuman desktop auth callbacks, Slidev monorepo deployment routing, GitHub Spec Kit extension symlinks, and local-AI startup feedback.
+- **AI developer tooling:** MCP servers, Codex plugin behavior, context optimization, local analytics, package-server detection, safe upgrade paths.
+- **Windows-first reliability:** restricted execution policies, missing symlink privileges, shell compatibility, desktop deep links, OAuth callbacks, packaging quirks.
+- **OpenAI-compatible systems:** routes, streaming behavior, uploaded file metadata, citation/reference markers, visible output cleanup.
+- **Maintainer-friendly delivery:** narrow PRs, regression tests, concise validation notes, no broad rewrites when a small fix is enough.
 
-## GitHub activity
+## Personal Projects
 
-<div align="center">
-  <img src="./assets/github-activity.svg" alt="Ngo Quoc Viet GitHub activity summary" width="900" />
-</div>
+I still maintain a few tools of my own, but my current profile is intentionally centered on community OSS contribution.
 
-<div align="center">
+| Project | Focus |
+| --- | --- |
+| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Native multi-account manager for Codex with aliases, health checks, and failover support. |
+| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Local Codex usage analytics, token trends, model breakdowns, and dashboard views. |
+| [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | MCP server for structured Google Docs and Sheets extraction with image-aware output. |
 
-### Open to freelance projects
+## Engineering Background
 
-Custom tools, web apps, desktop utilities, extensions, automation, AI workflows, and internal systems.
+Fullstack developer with nearly 4 years of experience across product and outsourced projects, including project-level Dev Lead responsibility in healthcare systems.
 
-[Portfolio](https://viet-ngo.hinadau.vip) . [Zalo](https://zalo.me/0971933518) . [Facebook](https://www.facebook.com/ngoquocviet2001/)
+- Frontend/backend delivery with TypeScript, React, Vue, Node.js, C#, ASP.NET, Laravel, Python, Go, Rust, SQL.
+- Project bootstrapping, source-base design, reusable components, code review, Git flow, mentoring, and internal training.
+- AWS, Linux, Docker, Nginx, CI/CD, VPS deployment, staging/production support, and AI-assisted BA/QC/developer workflows.
 
-</div>
+## Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,vue,nextjs,vite,tailwind,cs,dotnet,php,laravel,python,java,go,rust,mysql,postgres,mongodb,redis,aws,docker,nginx,linux,githubactions,git,github,figma,postman,vscode&perline=10" alt="Main development stack" />
+</p>
+
+![Codex](https://img.shields.io/badge/Codex-111827?style=flat-square&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-0F766E?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Code Review](https://img.shields.io/badge/Code_Review-2563EB?style=flat-square)
+![Windows DX](https://img.shields.io/badge/Windows_DX-0078D4?style=flat-square&logo=windows&logoColor=white)
+
+## Contact
+
+Open to OSS collaboration, maintainer support, developer tooling, automation, and practical fullstack/internal-tool work.
+
+[Portfolio](https://viet-ngo.hinadau.vip) . [GitHub](https://github.com/NgoQuocViet2001) . [Zalo](https://zalo.me/0971933518) . [Facebook](https://www.facebook.com/ngoquocviet2001/)
