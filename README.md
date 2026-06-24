@@ -26,8 +26,9 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 ## Current OSS focus
 
 - Dogfooding Codex, MCP, and Windows developer workflows in real projects.
-- Contributing maintainer-style fixes to `mksglu/context-mode`, including Codex marketplace approval mode, Codex doctor diagnostics, fetch cache TTL support, and upgrade fallback fixes.
-- Improving AI-agent adjacent tooling: local observability, multi-account Codex workflows, OpenAI-compatible APIs, desktop OAuth/deep-link flows, and Linux packaging details.
+- Contributing maintainer-style fixes and reviews to `mksglu/context-mode`, including Codex marketplace/plugin behavior, Windows-safe installs, Claude/Codex execution paths, insight analytics, doctor diagnostics, fetch cache TTL support, and upgrade fallback fixes.
+- Reviewing upstream `context-mode` PRs, validating Windows + Codex behavior for contributor changes, and shipping follow-up fixes when dogfooding exposes gaps.
+- Improving AI-agent adjacent tooling across local observability, multi-account Codex workflows, OpenAI-compatible APIs, desktop OAuth/deep-link flows, monorepo deployment paths, and Linux packaging details.
 
 ## Freelance focus
 
@@ -44,8 +45,8 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 
 | Product / Project | Focus | Signal | Link |
 | --- | --- | --- | --- |
-| Codex Keyring | Native multi-account manager for Codex with aliases, health checks, and failover support. | 26 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-keyring) |
-| Codex Observatory | Local Codex usage analytics, token trends, model breakdowns, and productivity dashboard. | 9 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-observatory) |
+| Codex Keyring | Native multi-account manager for Codex with aliases, health checks, and failover support. | 29 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-keyring) |
+| Codex Observatory | Local Codex usage analytics, token trends, model breakdowns, and productivity dashboard. | 10 stars | [GitHub](https://github.com/NgoQuocViet2001/codex-observatory) |
 | Google Workspace MCP | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 stars | [GitHub](https://github.com/NgoQuocViet2001/google-workspace-mcp) |
 | Dev Setup | Reproducible local development setup scripts for faster machine bootstrap. | 1 star | [GitHub](https://github.com/NgoQuocViet2001/dev-setup) |
 | CAJ and Document Converter | Desktop tool for unlimited CAJ to PDF conversion and multi-format document conversion. | Product build | [Portfolio](https://viet-ngo.hinadau.vip) |
@@ -132,17 +133,31 @@ Fullstack Developer with nearly 4 years of experience across product and outsour
 
 | Project | Role | Focus | Stars | Package |
 | --- | --- | --- | --- | --- |
-| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Native multi-account manager for Codex with alias switching, health checks, and failover support. | 26 | [npm](https://www.npmjs.com/package/codex-keyring) |
-| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. | 9 | [npm](https://www.npmjs.com/package/codex-observatory) |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | Maintainer-style contributor and reviewer | Codex and Windows MCP reliability, marketplace/plugin behavior, cross-project execution, insight analytics, fetch cache, upgrade safety, and upstream PR review. | 18.1k+ | [npm](https://www.npmjs.com/package/context-mode) |
+| [codex-keyring](https://github.com/NgoQuocViet2001/codex-keyring) | Primary maintainer | Native multi-account manager for Codex with alias switching, health checks, and failover support. | 29 | [npm](https://www.npmjs.com/package/codex-keyring) |
+| [codex-observatory](https://github.com/NgoQuocViet2001/codex-observatory) | Primary maintainer | Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends. | 10 | [npm](https://www.npmjs.com/package/codex-observatory) |
 | [google-workspace-mcp](https://github.com/NgoQuocViet2001/google-workspace-mcp) | Maintainer | MCP server for structured Google Docs and Sheets extraction with image-aware output. | 3 | - |
 | [dev-setup](https://github.com/NgoQuocViet2001/dev-setup) | Maintainer | Reproducible local development setup scripts. | 1 | - |
 
 ## Merged OSS contributions
 
-Tracked from public merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-05-25. Total tracked external merged PRs: 23.
+Tracked from public merged external pull requests authored by `NgoQuocViet2001`. Last updated: 2026-06-24. Total tracked external merged PRs: 36.
 
 | Project | PR | Contribution | Merged |
 | --- | --- | --- | --- |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#875](https://github.com/mksglu/context-mode/pull/875) | Synced the Zed `command.path` fix into the next README config so the documented editor setup matches the maintained command path. | 2026-06-24 |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#3800](https://github.com/tinyhumansai/openhuman/pull/3800) | Restored legacy `/auth` web callback compatibility for OAuth-style desktop login redirects, with route coverage. | 2026-06-22 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#765](https://github.com/mksglu/context-mode/pull/765) | Pinned Claude `ctx_execute` execution to the session working directory and covered cross-project cwd behavior. | 2026-06-13 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#778](https://github.com/mksglu/context-mode/pull/778) | Detected package-server runtime through `PI_CODING_AGENT` so plugin installs resolve the correct MCP server behavior. | 2026-06-04 |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | [#2562](https://github.com/slidevjs/slidev/pull/2562) | Used `BASE_URL` in slide path generation so monorepo sub-directory deployments resolve slide routes correctly. | 2026-06-03 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#766](https://github.com/mksglu/context-mode/pull/766) | Made cross-project attribution shell setup portable across environments without relying on brittle shell assumptions. | 2026-06-02 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#748](https://github.com/mksglu/context-mode/pull/748) | Avoided marketplace symlink sources on Windows so Codex plugin installs work under restricted symlink privileges. | 2026-06-01 |
+| [github/spec-kit](https://github.com/github/spec-kit) | [#2554](https://github.com/github/spec-kit/pull/2554) | Fixed `--dev` extension agent symlinks so development extension installs link the expected agent files. | 2026-05-28 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#722](https://github.com/mksglu/context-mode/pull/722) | Set platform environment for the Codex plugin MCP server so bundled runtime behavior matches the host platform. | 2026-05-26 |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | [#200](https://github.com/Anil-matcha/Open-Generative-AI/pull/200) | Showed local-AI startup heartbeat while models load so users see progress instead of a silent startup delay. | 2026-05-26 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#709](https://github.com/mksglu/context-mode/pull/709) | Hardened Windows shell execution for PowerShell, pwsh, cmd, Git Bash, and WSL-bash fallback paths so shell MCP calls run reliably under restricted execution policies. | 2026-05-25 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#706](https://github.com/mksglu/context-mode/pull/706) | Counted insight analytics KPI totals from uncapped aggregate queries instead of capped dashboard detail lists. | 2026-05-25 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#705](https://github.com/mksglu/context-mode/pull/705) | Made `ctx_insight` CORS tests use Windows junctions for temporary `node_modules` links when symlink privileges are unavailable. | 2026-05-25 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#704](https://github.com/mksglu/context-mode/pull/704) | Added Codex marketplace MCP approval defaults and regression coverage, with manual Codex plugin validation. | 2026-05-25 |
 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | [#2572](https://github.com/tinyhumansai/openhuman/pull/2572) | Hardened RPC bearer token checks with constant-time comparison and prefix-match regression tests. | 2026-05-25 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | [#686](https://github.com/mksglu/context-mode/pull/686) | Reported Codex standalone doctor status accurately instead of showing a misleading not-installed state. | 2026-05-24 |
@@ -166,6 +181,12 @@ Tracked from public merged external pull requests authored by `NgoQuocViet2001`.
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#378](https://github.com/CJackHwang/ds2api/pull/378) | Added root OpenAI route aliases for clients configured with a bare service URL. | 2026-04-29 |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#373](https://github.com/CJackHwang/ds2api/pull/373) | Returned `400 Bad Request` for inline file limit validation instead of surfacing a generic server error. | 2026-04-29 |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | [#359](https://github.com/CJackHwang/ds2api/pull/359) | Fixed OpenAI citation/reference marker replacement so one-based citations are not shifted by zero-based references. | 2026-04-29 |
+
+## OSS review activity
+
+- Reviewing contributor PRs in `mksglu/context-mode`, especially changes around batch search scope, cache observability, plugin-cache healing, Zed/Codex docs, and cross-platform MCP behavior.
+- Validating Windows + Codex flows with real local dogfooding, then turning the findings into focused fixes, regression tests, and maintainer-ready review notes.
+- Recent external PRs also cover OpenHuman desktop auth callbacks, Slidev monorepo deployment routing, GitHub Spec Kit extension symlinks, and local-AI startup feedback.
 
 ## GitHub activity
 
