@@ -1,40 +1,201 @@
-<svg width="900" height="310" viewBox="0 0 900 310" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ngo Quoc Viet community OSS activity summary</title>
-  <desc id="desc">Static GitHub activity snapshot for community repositories, external merged pull requests, public PR conversations, and top contribution targets.</desc>
-  <rect x="1" y="1" width="898" height="308" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-  <text x="32" y="44" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Community OSS snapshot</text>
-  <text x="32" y="70" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13">External public contribution data for NgoQuocViet2001. Updated 2026-06-24.</text>
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ngo Quoc Viet community OSS quest board</title>
+  <desc id="desc">Retro RPG activity summary updated July 23, 2026: 47 external merged pull requests across 13 community repositories, with 30 active pull requests under review.</desc>
 
-  <rect x="32" y="98" width="194" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="52" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">COMMUNITY REPOS</text>
-  <text x="52" y="158" fill="#0969da" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">8</text>
+  <style><![CDATA[
+    .check-a { animation: questCheck 1.8s steps(2, end) infinite; }
+    .check-b { animation: questCheck 2.2s steps(2, end) infinite .35s; }
+    .check-c { animation: questCheck 2s steps(2, end) infinite .7s; }
+    .shine { animation: shineMove 5.4s linear infinite; }
+    .gem { animation: gemPulse 1.7s steps(2, end) infinite; }
+    .bar-a { animation: barPulse 2.8s ease-in-out infinite; }
+    .bar-b { animation: barPulse 3.1s ease-in-out infinite .25s; }
+    .bar-c { animation: barPulse 2.6s ease-in-out infinite .55s; }
 
-  <rect x="248" y="98" width="194" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="268" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">MERGED PRS</text>
-  <text x="268" y="158" fill="#8250df" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">36</text>
+    @keyframes questCheck {
+      0%, 68%, 100% { opacity: 1; }
+      69%, 82% { opacity: .45; }
+    }
+    @keyframes shineMove {
+      from { transform: translateX(-250px); }
+      to { transform: translateX(1460px); }
+    }
+    @keyframes gemPulse {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    @keyframes barPulse {
+      0%, 100% { opacity: .86; }
+      50% { opacity: 1; }
+    }
 
-  <rect x="464" y="98" width="194" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="484" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">PR CONVERSATIONS</text>
-  <text x="484" y="158" fill="#1a7f37" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">30</text>
+    @media (prefers-reduced-motion: reduce) {
+      .check-a, .check-b, .check-c, .shine, .gem, .bar-a, .bar-b, .bar-c {
+        animation: none;
+      }
+    }
+  ]]></style>
 
-  <rect x="680" y="98" width="188" height="76" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="700" y="128" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">CONTEXT-MODE PRS</text>
-  <text x="700" y="158" fill="#cf222e" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">13</text>
+  <defs>
+    <linearGradient id="paper" x1="600" y1="10" x2="600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2C7"/>
+      <stop offset="1" stop-color="#EACF8E"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#755033"/>
+      <stop offset=".5" stop-color="#4F3424"/>
+      <stop offset="1" stop-color="#342219"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#D99D25"/>
+      <stop offset=".55" stop-color="#FFE477"/>
+      <stop offset="1" stop-color="#C98518"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#3E6B35"/>
+      <stop offset=".6" stop-color="#77A94C"/>
+      <stop offset="1" stop-color="#A5CE63"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#315A83"/>
+      <stop offset=".6" stop-color="#4C86B4"/>
+      <stop offset="1" stop-color="#81B6D8"/>
+    </linearGradient>
+    <pattern id="paper-lines" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 18L18 0" stroke="#8C6A3F" stroke-opacity=".055"/>
+      <path d="M-9 9L9 -9M9 27L27 9" stroke="#FFFFFF" stroke-opacity=".07"/>
+    </pattern>
+    <clipPath id="clip">
+      <rect width="1200" height="430" rx="12"/>
+    </clipPath>
+  </defs>
 
-  <text x="32" y="215" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Merged PRs by community project</text>
+  <g clip-path="url(#clip)" shape-rendering="crispEdges">
+    <rect width="1200" height="430" fill="#18232A"/>
+    <rect x="10" y="10" width="1180" height="410" fill="url(#wood)" stroke="#CFA95A" stroke-width="4"/>
+    <rect x="28" y="28" width="1144" height="374" fill="url(#paper)" stroke="#3E2A1E" stroke-width="4"/>
+    <rect x="36" y="36" width="1128" height="358" fill="url(#paper-lines)"/>
 
-  <text x="32" y="245" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">context-mode</text>
-  <rect x="122" y="233" width="700" height="12" rx="6" fill="#d0d7de"/>
-  <rect x="122" y="233" width="700" height="12" rx="6" fill="#0f766e"/>
-  <text x="838" y="245" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="end">13 PRs</text>
+    <!-- Pixel corner hardware -->
+    <g fill="#E1B84F" stroke="#4E351F" stroke-width="2">
+      <rect x="18" y="18" width="28" height="28"/>
+      <rect x="1154" y="18" width="28" height="28"/>
+      <rect x="18" y="384" width="28" height="28"/>
+      <rect x="1154" y="384" width="28" height="28"/>
+    </g>
+    <g fill="#FFF0A3">
+      <rect x="26" y="26" width="8" height="8"/>
+      <rect x="1162" y="26" width="8" height="8"/>
+      <rect x="26" y="392" width="8" height="8"/>
+      <rect x="1162" y="392" width="8" height="8"/>
+    </g>
 
-  <text x="32" y="269" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">ds2api</text>
-  <rect x="122" y="257" width="700" height="12" rx="6" fill="#d0d7de"/>
-  <rect x="122" y="257" width="431" height="12" rx="6" fill="#3178c6"/>
-  <text x="838" y="269" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="end">8 PRs</text>
+    <!-- Header -->
+    <rect x="64" y="54" width="1072" height="60" fill="#3D2A1D" stroke="#D4A94D" stroke-width="3"/>
+    <rect x="76" y="66" width="1048" height="36" fill="#503722"/>
+    <text x="96" y="91" fill="#FFF1B7" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="900" letter-spacing="1">COMMUNITY OSS QUEST BOARD</text>
+    <text x="1100" y="90" fill="#E9C766" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="800">SAVE UPDATED 2026-07-23</text>
 
-  <text x="32" y="293" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">openhuman</text>
-  <rect x="122" y="281" width="700" height="12" rx="6" fill="#d0d7de"/>
-  <rect x="122" y="281" width="323" height="12" rx="6" fill="#8250df"/>
-  <text x="838" y="293" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="end">6 PRs</text>
+    <!-- Metric cards -->
+    <g>
+      <rect x="64" y="132" width="250" height="92" fill="#F9E7B5" stroke="#76502F" stroke-width="3"/>
+      <rect x="74" y="142" width="230" height="72" fill="none" stroke="#C7A360" stroke-width="2" stroke-dasharray="6 5"/>
+      <g class="gem" transform="translate(88 154)">
+        <path d="M14 0L28 14L14 30L0 14L14 0Z" fill="#4C86B4" stroke="#253D51" stroke-width="3"/>
+        <path d="M14 5L22 14L14 22L6 14L14 5Z" fill="#9DD6ED"/>
+      </g>
+      <text x="136" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">47</text>
+      <text x="136" y="203" fill="#785636" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="800" letter-spacing="1">MERGED QUESTS</text>
+    </g>
+
+    <g>
+      <rect x="332" y="132" width="250" height="92" fill="#F9E7B5" stroke="#76502F" stroke-width="3"/>
+      <rect x="342" y="142" width="230" height="72" fill="none" stroke="#C7A360" stroke-width="2" stroke-dasharray="6 5"/>
+      <g class="gem" transform="translate(356 154)">
+        <path d="M14 0L28 14L14 30L0 14L14 0Z" fill="#77A94C" stroke="#3D5C2F" stroke-width="3"/>
+        <path d="M14 5L22 14L14 22L6 14L14 5Z" fill="#CBE88A"/>
+      </g>
+      <text x="404" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">13</text>
+      <text x="404" y="203" fill="#785636" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="800" letter-spacing="1">WORLDS VISITED</text>
+    </g>
+
+    <g>
+      <rect x="600" y="132" width="250" height="92" fill="#F9E7B5" stroke="#76502F" stroke-width="3"/>
+      <rect x="610" y="142" width="230" height="72" fill="none" stroke="#C7A360" stroke-width="2" stroke-dasharray="6 5"/>
+      <g class="gem" transform="translate(624 154)">
+        <path d="M14 0L28 14L14 30L0 14L14 0Z" fill="#B56A44" stroke="#633E2B" stroke-width="3"/>
+        <path d="M14 5L22 14L14 22L6 14L14 5Z" fill="#F3B27C"/>
+      </g>
+      <text x="672" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">30</text>
+      <text x="672" y="203" fill="#785636" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="800" letter-spacing="1">ACTIVE QUESTS</text>
+    </g>
+
+    <!-- Rank seal -->
+    <g transform="translate(900 132)">
+      <rect width="236" height="92" fill="#315A83" stroke="#1D344A" stroke-width="3"/>
+      <rect x="10" y="10" width="216" height="72" fill="none" stroke="#A9D3E7" stroke-width="2" stroke-dasharray="6 5"/>
+      <path d="M34 21L43 42L66 44L48 59L53 79L34 68L15 79L20 59L2 44L25 42L34 21Z" fill="#F4D35E" stroke="#382817" stroke-width="2"/>
+      <text x="82" y="51" fill="#FFFFFF" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="800">CONTRIBUTOR RANK</text>
+      <text x="82" y="76" fill="#FFE97F" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="900">LV. 47</text>
+    </g>
+
+    <!-- Contribution rows -->
+    <text x="72" y="244" fill="#3D291C" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700">Top completed questlines</text>
+    <text x="1128" y="244" fill="#7A5837" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="800">MERGED PULL REQUESTS</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(70 252)">
+      <rect class="check-a" x="0" y="0" width="22" height="22" fill="#F5D65C" stroke="#6A482A" stroke-width="2"/>
+      <path d="M5 11L10 16L18 6" stroke="#36582F" stroke-width="4"/>
+      <text x="38" y="17" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">context-mode</text>
+      <rect x="238" y="5" width="752" height="13" fill="#C7AA72"/>
+      <rect class="bar-a" x="238" y="5" width="752" height="13" fill="url(#green)"/>
+      <text x="1052" y="17" fill="#3A281C" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">13</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(70 280)">
+      <rect class="check-b" x="0" y="0" width="22" height="22" fill="#F5D65C" stroke="#6A482A" stroke-width="2"/>
+      <path d="M5 11L10 16L18 6" stroke="#36582F" stroke-width="4"/>
+      <text x="38" y="17" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">ds2api</text>
+      <rect x="238" y="5" width="752" height="13" fill="#C7AA72"/>
+      <rect class="bar-b" x="238" y="5" width="463" height="13" fill="url(#blue)"/>
+      <text x="1052" y="17" fill="#3A281C" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">8</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(70 308)">
+      <rect class="check-c" x="0" y="0" width="22" height="22" fill="#F5D65C" stroke="#6A482A" stroke-width="2"/>
+      <path d="M5 11L10 16L18 6" stroke="#36582F" stroke-width="4"/>
+      <text x="38" y="17" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">openhuman</text>
+      <rect x="238" y="5" width="752" height="13" fill="#C7AA72"/>
+      <rect class="bar-c" x="238" y="5" width="405" height="13" fill="url(#gold)"/>
+      <text x="1052" y="17" fill="#3A281C" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">7</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(70 336)">
+      <rect x="0" y="0" width="22" height="22" fill="#F5D65C" stroke="#6A482A" stroke-width="2"/>
+      <path d="M5 11L10 16L18 6" stroke="#36582F" stroke-width="4"/>
+      <text x="38" y="17" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">Open-Generative-AI</text>
+      <rect x="238" y="5" width="752" height="13" fill="#C7AA72"/>
+      <rect x="238" y="5" width="289" height="13" fill="#B56A44"/>
+      <text x="1052" y="17" fill="#3A281C" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">5</text>
+    </g>
+
+    <!-- Row 5 -->
+    <g transform="translate(70 364)">
+      <rect x="0" y="0" width="22" height="22" fill="#F5D65C" stroke="#6A482A" stroke-width="2"/>
+      <path d="M5 11L10 16L18 6" stroke="#36582F" stroke-width="4"/>
+      <text x="38" y="17" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">Slidev</text>
+      <rect x="238" y="5" width="752" height="13" fill="#C7AA72"/>
+      <rect x="238" y="5" width="231" height="13" fill="#7B5CA8"/>
+      <text x="1052" y="17" fill="#3A281C" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900">4</text>
+    </g>
+
+    <!-- Moving highlight -->
+    <g class="shine" opacity=".13">
+      <path d="M-160 0H-85L125 430H50L-160 0Z" fill="#FFFFFF"/>
+    </g>
+  </g>
 </svg>
