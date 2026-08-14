@@ -166,12 +166,12 @@
     <!-- XP bar -->
     <text x="102" y="265" fill="#FFF3B0" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="800">OSS XP</text>
     <rect x="174" y="252" width="520" height="18" fill="#08141B" stroke="#54776E" stroke-width="2"/>
-    <rect class="xp-fill" x="180" y="258" width="438" height="6" fill="url(#xp)"/>
-    <rect x="626" y="258" width="62" height="6" fill="#2D4B47"/>
+    <rect class="xp-fill" x="180" y="258" width="462" height="6" fill="url(#xp)"/>
+    <rect x="650" y="258" width="38" height="6" fill="#2D4B47"/>
     <g class="scan" opacity=".34">
       <rect x="-210" y="258" width="86" height="6" fill="#FFFFFF"/>
     </g>
-    <text x="704" y="265" fill="#7DE2CA" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="800">LV.47</text>
+    <text x="704" y="265" fill="#7DE2CA" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="800">LV.55</text>
 
     <!-- Pixel flag and castle -->
     <rect x="1004" y="164" width="8" height="118" fill="#4B3827"/>
@@ -232,8 +232,8 @@
     <rect x="790" y="36" width="322" height="112" fill="#142B35" opacity=".92" stroke="#F1D37A" stroke-width="3"/>
     <rect x="802" y="48" width="298" height="88" fill="none" stroke="#608C80" stroke-width="2" stroke-dasharray="6 5"/>
     <text x="822" y="73" fill="#F7D774" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="800">CURRENT SAVE</text>
-    <text x="822" y="103" fill="#FFF8D8" font-family="Consolas, 'Courier New', monospace" font-size="23" font-weight="900">47 MERGED QUESTS</text>
-    <text x="822" y="126" fill="#9AC9C2" font-family="Consolas, 'Courier New', monospace" font-size="12">13 WORLDS · 30 ACTIVE <tspan class="cursor" fill="#7DE2CA">█</tspan></text>
+    <text x="822" y="103" fill="#FFF8D8" font-family="Consolas, 'Courier New', monospace" font-size="23" font-weight="900">55 MERGED QUESTS</text>
+    <text x="822" y="126" fill="#9AC9C2" font-family="Consolas, 'Courier New', monospace" font-size="12">15 WORLDS · 49 ACTIVE <tspan class="cursor" fill="#7DE2CA">█</tspan></text>
 
     <!-- subtle scanline overlay -->
     <rect width="1200" height="360" fill="url(#scanlines)" pointer-events="none"/>
