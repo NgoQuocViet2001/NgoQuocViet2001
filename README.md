@@ -25,17 +25,17 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 
 ## 📊 Adventure Log
 
-Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-08-16**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
+Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-08-18**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg" alt="Retro RPG board showing 71 merged pull requests across 29 community repositories and 60 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg" alt="Retro RPG board showing 82 merged pull requests across 32 community repositories and 65 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
-| **Merged quests** | **71** | External PRs merged by community maintainers in the last 12 months |
-| **Worlds visited** | **29** | Community repositories with at least one merged contribution |
-| **Active quests** | **60** | External PRs currently open for maintainer review |
+| **Merged quests** | **82** | External PRs merged by community maintainers in the last 12 months |
+| **Worlds visited** | **32** | Community repositories with at least one merged contribution |
+| **Active quests** | **65** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -43,6 +43,17 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 
 | Project | PR | Quest result | Merged |
 | --- | --- | --- | --- |
+| [manim](https://github.com/3b1b/manim) | [#2502](https://github.com/3b1b/manim/pull/2502) | Looks a graph's point up by clamping to the plotted x-range instead of indexing past it, so a lookup outside the unit range returns a point on the curve rather than failing. | 2026-08-17 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#794](https://github.com/HakanSeven12/OpenCADStudio/pull/794) | Fingerprints a drawing through the handle its own edit lease already holds, so Save As over an existing file no longer fails against this editor's own mandatory Windows lock. | 2026-08-17 |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#283](https://github.com/earthtojake/text-to-cad/pull/283) | Copies a pinned temp file sideways and reruns the rename ladder when an SMB handle outlives it, covering every call site through `replace_atomic` rather than one writer. | 2026-08-17 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#781](https://github.com/HakanSeven12/OpenCADStudio/pull/781) | Opens printer properties for the printer selected in the plot dialog on Windows instead of the system default. | 2026-08-17 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#780](https://github.com/HakanSeven12/OpenCADStudio/pull/780) | Clears a half-drawn selection marquee when a command starts, so the pending rubber band cannot survive into the next command's input. | 2026-08-17 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#777](https://github.com/HakanSeven12/OpenCADStudio/pull/777) | Extends FLATTEN to polylines, solids and 3D faces so every projected entity lands on Z=0 rather than only the subset previously handled. | 2026-08-17 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#776](https://github.com/HakanSeven12/OpenCADStudio/pull/776) | Leaves unitless block inserts unscaled instead of applying a unit conversion the block never declared. | 2026-08-17 |
+| [archify](https://github.com/tt-a1i/archify) | [#80](https://github.com/tt-a1i/archify/pull/80) | Stops treating non-finite rectangles as overlapping in the renderers, removing a crash path when a layout produces NaN bounds. | 2026-08-17 |
+| [zmx](https://github.com/neurosnap/zmx) | [#242](https://github.com/neurosnap/zmx/pull/242) | Documents that nested sessions are unsupported, after tracing why attaching inside an existing session leaves the inner one unrecoverable. | 2026-08-17 |
+| [diagram-design](https://github.com/cathrynlavery/diagram-design) | [#56](https://github.com/cathrynlavery/diagram-design/pull/56) | Adds roving `tabindex` and `aria-checked` keyboard navigation to the gallery so arrow keys move focus and selection together. | 2026-08-17 |
+| [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#162](https://github.com/virgiliojr94/book-to-skill/pull/162) | Treats a bracketed path as a literal when it does not exist on disk, so extraction no longer rewrites text that only looks like a file reference. | 2026-08-17 |
 | [pi-web](https://github.com/agegr/pi-web) | [#502](https://github.com/agegr/pi-web/pull/502) | Forwards `SIGINT` and `SIGTERM` from the wrapper to the Next.js child, allows a bounded grace period, then force-stops the child while preserving conventional exit statuses. | 2026-08-15 |
 | [t3code](https://github.com/pingdotgg/t3code) | [#3929](https://github.com/pingdotgg/t3code/pull/3929) | Restores the `CLAUDE.md` symlink target to exactly `AGENTS.md`, removing a trailing newline that made macOS and Linux resolve the link as missing. | 2026-08-15 |
 | [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#770](https://github.com/HakanSeven12/OpenCADStudio/pull/770) | Allows case-only layer renames in the case-insensitive layer table and updates the active layer and document header when the current layer is renamed. | 2026-08-15 |
