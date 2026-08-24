@@ -1,6 +1,6 @@
 <svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Ngo Quoc Viet community OSS quest board</title>
-  <desc id="desc">Retro RPG activity summary updated August 21, 2026: 96 external merged pull requests across 36 community repositories, with 63 active pull requests under review.</desc>
+  <desc id="desc">Retro RPG activity summary updated August 24, 2026: 100 external merged pull requests across 38 community repositories, with 66 active pull requests under review.</desc>
 
   <style><![CDATA[
     .check-a { animation: questCheck 1.8s steps(2, end) infinite; }
@@ -104,7 +104,7 @@
         <path d="M14 0L28 14L14 30L0 14L14 0Z" fill="#4C86B4" stroke="#253D51" stroke-width="3"/>
         <path d="M14 5L22 14L14 22L6 14L14 5Z" fill="#9DD6ED"/>
       </g>
-      <text x="136" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">96</text>
+      <text x="136" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">100</text>
       <text x="136" y="203" fill="#785636" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="800" letter-spacing="1">MERGED QUESTS</text>
     </g>
 
@@ -115,7 +115,7 @@
         <path d="M14 0L28 14L14 30L0 14L14 0Z" fill="#77A94C" stroke="#3D5C2F" stroke-width="3"/>
         <path d="M14 5L22 14L14 22L6 14L14 5Z" fill="#CBE88A"/>
       </g>
-      <text x="404" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">36</text>
+      <text x="404" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">38</text>
       <text x="404" y="203" fill="#785636" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="800" letter-spacing="1">WORLDS VISITED</text>
     </g>
 
@@ -126,7 +126,7 @@
         <path d="M14 0L28 14L14 30L0 14L14 0Z" fill="#B56A44" stroke="#633E2B" stroke-width="3"/>
         <path d="M14 5L22 14L14 22L6 14L14 5Z" fill="#F3B27C"/>
       </g>
-      <text x="672" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">63</text>
+      <text x="672" y="181" fill="#3A281C" font-family="Consolas, 'Courier New', monospace" font-size="31" font-weight="900">66</text>
       <text x="672" y="203" fill="#785636" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="800" letter-spacing="1">ACTIVE QUESTS</text>
     </g>
 

@@ -25,17 +25,17 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 
 ## 📊 Adventure Log
 
-Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-08-21**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
+Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-08-24**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg" alt="Retro RPG board showing 96 merged pull requests across 36 community repositories and 63 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg" alt="Retro RPG board showing 100 merged pull requests across 38 community repositories and 66 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
-| **Merged quests** | **96** | External PRs merged by community maintainers in the last 12 months |
-| **Worlds visited** | **36** | Community repositories with at least one merged contribution |
-| **Active quests** | **63** | External PRs currently open for maintainer review |
+| **Merged quests** | **100** | External PRs merged by community maintainers in the last 12 months |
+| **Worlds visited** | **38** | Community repositories with at least one merged contribution |
+| **Active quests** | **66** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -43,6 +43,10 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 
 | Project | PR | Quest result | Merged |
 | --- | --- | --- | --- |
+| [drawDB](https://github.com/drawdb-io/drawdb) | [#1126](https://github.com/drawdb-io/drawdb/pull/1126) | Escapes single quotes in ENUM/SET values so a label such as `it's fine` no longer terminates the generated SQL literal early. | 2026-08-24 |
+| [repowise](https://github.com/repowise-dev/repowise) | [#1754](https://github.com/repowise-dev/repowise/pull/1754) | Scopes a module page's decision records to that module's own files, deduplicates them, and ranks by confidence instead of list position. | 2026-08-24 |
+| [repowise](https://github.com/repowise-dev/repowise) | [#1753](https://github.com/repowise-dev/repowise/pull/1753) | Counts a Prisma verb as a database sink only on a member call, so a local `aggregate()` stops producing false N+1 findings in code with no database. | 2026-08-24 |
+| [RAGFlow](https://github.com/infiniflow/ragflow) | [#18292](https://github.com/infiniflow/ragflow/pull/18292) | Classifies CLI benchmark responses by envelope code as well as HTTP status so failed calls stop inflating the success count. | 2026-08-21 |
 | [Vite](https://github.com/vitejs/vite) | [#23256](https://github.com/vitejs/vite/pull/23256) | Closes config bundles from a `finally` block so failed generation releases Rolldown plugin and native resources as reliably as the successful path. | 2026-08-21 |
 | [pnpm](https://github.com/pnpm/pnpm) | [#13900](https://github.com/pnpm/pnpm/pull/13900) | Preserves caret, tilde, bare, and equals-prefixed range styles when updates resolve to prereleases, keeping the TypeScript and Rust implementations aligned. | 2026-08-21 |
 | [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#827](https://github.com/HakanSeven12/OpenCADStudio/pull/827) | Rounds lengths and angles in their smallest displayed unit before splitting larger units, carrying values such as 12 inches or 60 seconds into the next column. | 2026-08-20 |
@@ -88,9 +92,10 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 | [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | **3** | Curl import parsing and shell-safe curl and gRPCurl export behavior |
 | [neurosnap/zmx](https://github.com/neurosnap/zmx) | **3** | Session wildcard matching, prefixed picker behavior, and nested-session documentation |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | **3** | CLI validation, renderer-bound safety, and full-width text measurement |
+| [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | **2** | Health-analysis precision and wiki page scoping |
 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | **2** | Offline content download reliability and benchmark startup correctness |
 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | **2** | MCP diagram edit consistency, stale-state protection, and multi-page export preservation |
-| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | **2** | Clipboard schema validation and self-referencing foreign keys in SQL imports |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | **3** | Clipboard schema validation, self-referencing foreign keys, and SQL literal escaping for enum values |
 | [jdx/mise](https://github.com/jdx/mise) | **2** | Filesystem-safe install linking and portable generated bootstrap paths |
 | [logto-io/logto](https://github.com/logto-io/logto) | **2** | Tenant initialization error observability and accurate contributor prerequisites |
 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | **2** | ESP32 swarm configuration validation and mesh-to-dashboard documentation |
@@ -112,6 +117,7 @@ Community repositories with one merged contribution so far:
 | [pacifio/atlas](https://github.com/pacifio/atlas) | Agent turn epoch handling and late transcript events |
 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | Sanity-check data correctness and regression coverage |
 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | Cross-platform repository symlink integrity |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | CLI benchmark failure accounting by response envelope |
 | [pnpm/pnpm](https://github.com/pnpm/pnpm) | Prerelease range-style preservation across TypeScript and Rust update paths |
 | [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) | CLI argument validation before authentication |
 | [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | Multi-language CLI option documentation |
@@ -124,30 +130,30 @@ Community repositories with one merged contribution so far:
 
 ## 🔥 Active Quest Queue
 
-The newest open contributions waiting for maintainer review, ordered by creation time:
+The newest open contributions waiting for maintainer review, ordered by creation time. **66** are open in total; the 20 most recent are listed here.
 
 | Project | PR | Quest in progress |
 | --- | --- | --- |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1754](https://github.com/repowise-dev/repowise/pull/1754) | Scope module-page decision records to the module's own files, deduplicate them, and rank the strongest evidence first. |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1753](https://github.com/repowise-dev/repowise/pull/1753) | Treat Prisma-like verbs as database sinks only on member calls so ordinary local functions such as `aggregate()` do not create false performance findings. |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1752](https://github.com/repowise-dev/repowise/pull/1752) | Share the sink-reachability walk used by cross-function loop and lock analysis while preserving each pass's existing output. |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1751](https://github.com/repowise-dev/repowise/pull/1751) | Make `coverage add` exit non-zero when it stores nothing and add opt-in strict handling for partial ingests. |
-| [cuda-oxide](https://github.com/NVlabs/cuda-oxide) | [#1050](https://github.com/NVlabs/cuda-oxide/pull/1050) | Keep the formatting workflow and `cargo oxide fmt` on one shared scope list, guarded by a drift-detection test. |
-| [cuda-oxide](https://github.com/NVlabs/cuda-oxide) | [#1049](https://github.com/NVlabs/cuda-oxide/pull/1049) | Accept Rust `char` in CUDA device-extern parameters and results with integration coverage for the generated ABI. |
-| [joshuto](https://github.com/kamiyaa/joshuto) | [#634](https://github.com/kamiyaa/joshuto/pull/634) | Avoid history panics when filtering produces an empty listing or a stored cursor index points beyond its old contents. |
-| [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#178](https://github.com/virgiliojr94/book-to-skill/pull/178) | Strip invisible Unicode carriers that sit outside the existing format-control filter so reviewers and generated-skill consumers see the same text. |
-| [takumi](https://github.com/kane50613/takumi) | [#1329](https://github.com/kane50613/takumi/pull/1329) | Decode uppercase hexadecimal references, remap legacy C1 references, and replace numeric NUL references according to HTML parsing rules. |
-| [takumi](https://github.com/kane50613/takumi) | [#1326](https://github.com/kane50613/takumi/pull/1326) | Split inline styles only at top-level semicolons so data URLs and quoted values remain intact. |
-| [ni](https://github.com/antfu-collective/ni) | [#357](https://github.com/antfu-collective/ni/pull/357) | Read JSONC-style `package.json` files with comments and trailing commas while preserving the original error for genuinely invalid manifests. |
-| [pi-web](https://github.com/agegr/pi-web) | [#516](https://github.com/agegr/pi-web/pull/516) | Resolve a single session from directory entries and its verified header before falling back to a full catalogue scan. |
-| [pi-web](https://github.com/agegr/pi-web) | [#515](https://github.com/agegr/pi-web/pull/515) | Handle child-process spawn errors and report unexpected exit codes or signals without adding noise to forwarded shutdowns. |
-| [pi-web](https://github.com/agegr/pi-web) | [#511](https://github.com/agegr/pi-web/pull/511) | Accept same-origin requests behind a scheme-rewriting proxy only when the forwarded request still matches the `Host` authority. |
-| [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | [#37](https://github.com/xuanyustudio/LocalMiniDrama/pull/37) | Route custom Volcengine Omni submit and query requests to the endpoints already shown by the configuration preview. |
-| [SQLBot](https://github.com/dataease/SQLBot) | [#1323](https://github.com/dataease/SQLBot/pull/1323) | Keep the standard Hive `DESCRIBE` fields while ignoring trailing driver-specific columns returned by ArgoDB. |
-| [KrillinAI](https://github.com/krillinai/KrillinAI) | [#308](https://github.com/krillinai/KrillinAI/pull/308) | Preserve the Bilibili `p` query parameter when normalizing multi-page video URLs. |
-| [witr](https://github.com/pranshuparmar/witr) | [#231](https://github.com/pranshuparmar/witr/pull/231) | Detect Windows listeners by their zero-port remote endpoint so localized `netstat` state names are no longer dropped. |
-| [RAGFlow](https://github.com/infiniflow/ragflow) | [#18292](https://github.com/infiniflow/ragflow/pull/18292) | Classify CLI benchmark responses by envelope code as well as HTTP status so failed calls stop inflating the success count. |
-| [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | [#387](https://github.com/firecrawl/pdf-inspector/pull/387) | Escape quotes and newlines in `pdf2md --json` error objects so downstream consumers always receive valid JSON. |
+| [mise](https://github.com/jdx/mise) | [#12362](https://github.com/jdx/mise/pull/12362) | Emits the list separator when prepending to `PATH` in elvish, so a new entry no longer fuses onto the first existing one. |
+| [mise](https://github.com/jdx/mise) | [#12361](https://github.com/jdx/mise/pull/12361) | Unsets `__MISE_SESSION` on nushell deactivate, which listed `__MISE_DIFF` twice and left the session marker behind. |
+| [archify](https://github.com/tt-a1i/archify) | [#105](https://github.com/tt-a1i/archify/pull/105) | Rejects unknown options and extra positionals in `render`, which previously wrote a file named after the mistyped flag and exited 0. |
+| [Yaak](https://github.com/mountain-loop/yaak) | [#607](https://github.com/mountain-loop/yaak/pull/607) | Escapes control characters in `json.escape` so a value containing a newline no longer produces an unparseable JSON document. |
+| [Yaak](https://github.com/mountain-loop/yaak) | [#606](https://github.com/mountain-loop/yaak/pull/606) | Keeps an `=` inside `--url-query` and form values during curl import, preserving base64 padding and nested filters. |
+| [Yaak](https://github.com/mountain-loop/yaak) | [#605](https://github.com/mountain-loop/yaak/pull/605) | Uses the signing key as the OAuth 1.0 PLAINTEXT signature instead of the signature base string, per RFC 5849 3.4.4. |
+| [Vite](https://github.com/vitejs/vite) | [#23346](https://github.com/vitejs/vite/pull/23346) | Keeps the image URL when a density descriptor omits its leading zero, so `.5x` candidates are no longer dropped from `srcset` and `image-set()`. |
+| [Vite](https://github.com/vitejs/vite) | [#23345](https://github.com/vitejs/vite/pull/23345) | Stops `generateCodeFrame` spinning forever on a CRLF source, turning a build or dev-server error into a hung process. |
+| [drawDB](https://github.com/drawdb-io/drawdb) | [#1125](https://github.com/drawdb-io/drawdb/pull/1125) | Stops treating a plain-text default that merely ends in `(...)` as a SQL function, which emitted it unquoted into the export. |
+| [drawDB](https://github.com/drawdb-io/drawdb) | [#1124](https://github.com/drawdb-io/drawdb/pull/1124) | Keeps a column declared `NULL` nullable on import across five dialects, instead of inverting it to `NOT NULL`. |
+| [repowise](https://github.com/repowise-dev/repowise) | [#1752](https://github.com/repowise-dev/repowise/pull/1752) | Shares the sink-reachability walk between the cross-function loop and lock passes while preserving call-line accurate first-hop resolution. |
+| [repowise](https://github.com/repowise-dev/repowise) | [#1751](https://github.com/repowise-dev/repowise/pull/1751) | Makes `coverage add` exit non-zero when it stores nothing, with opt-in strict handling for partial ingests. |
+| [joshuto](https://github.com/kamiyaa/joshuto) | [#634](https://github.com/kamiyaa/joshuto/pull/634) | Avoids history panics when filtering produces an empty listing or a stored cursor points past its old contents. |
+| [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#178](https://github.com/virgiliojr94/book-to-skill/pull/178) | Strips invisible Unicode carriers that sit outside the existing format-control filter so reviewers and models read the same text. |
+| [ni](https://github.com/antfu-collective/ni) | [#357](https://github.com/antfu-collective/ni/pull/357) | Reads JSONC-style `package.json` files with comments and trailing commas while preserving the original error for genuinely invalid manifests. |
+| [pi-web](https://github.com/agegr/pi-web) | [#516](https://github.com/agegr/pi-web/pull/516) | Resolves a single session from directory entries and its verified header before falling back to a full catalogue scan. |
+| [pi-web](https://github.com/agegr/pi-web) | [#515](https://github.com/agegr/pi-web/pull/515) | Handles child-process spawn errors and reports unexpected exit codes without adding noise to forwarded shutdowns. |
+| [pi-web](https://github.com/agegr/pi-web) | [#511](https://github.com/agegr/pi-web/pull/511) | Accepts same-origin requests behind a scheme-rewriting proxy only when the forwarded request still matches the `Host` authority. |
+| [Catch2](https://github.com/catchorg/Catch2) | [#3175](https://github.com/catchorg/Catch2/pull/3175) | Adds an opt-in `USE_RELATIVE_PATHS` mode so `PRE_TEST` discovery survives a relocated build tree. |
+| [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | [#387](https://github.com/firecrawl/pdf-inspector/pull/387) | Escapes quotes and newlines in the `pdf2md --json` error object so consumers always receive valid JSON. |
 
 ## 🎒 Inventory / Tech Stack
 
