@@ -28,14 +28,14 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-08-24**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg" alt="Retro RPG board showing 100 merged pull requests across 38 community repositories and 66 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg" alt="Retro RPG board showing 100 merged pull requests across 38 community repositories and 70 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
 | **Merged quests** | **100** | External PRs merged by community maintainers in the last 12 months |
 | **Worlds visited** | **38** | Community repositories with at least one merged contribution |
-| **Active quests** | **66** | External PRs currently open for maintainer review |
+| **Active quests** | **70** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -130,10 +130,14 @@ Community repositories with one merged contribution so far:
 
 ## 🔥 Active Quest Queue
 
-The newest open contributions waiting for maintainer review, ordered by creation time. **66** are open in total; the 20 most recent are listed here.
+The newest open contributions waiting for maintainer review, ordered by creation time. **70** are open in total; the 20 most recent are listed here.
 
 | Project | PR | Quest in progress |
 | --- | --- | --- |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#327](https://github.com/earthtojake/text-to-cad/pull/327) | Stops MTEXT paragraph-properties commands leaking their payload into engraved text, so `\pxqc;PART A` engraves as `PART A`. |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#326](https://github.com/earthtojake/text-to-cad/pull/326) | Reads the arc angle keys the DXF parsers actually emit, so a 90° arc stops being drawn as a complete circle. |
+| [manim](https://github.com/3b1b/manim) | [#2518](https://github.com/3b1b/manim/pull/2518) | Handles a single reference color and a single output sample in `color_gradient`, which raised `IndexError` and returned the wrong end respectively. |
+| [manim](https://github.com/3b1b/manim) | [#2517](https://github.com/3b1b/manim/pull/2517) | Strips LaTeX environments whose argument carries a star or a column spec, so `align*` stops inflating the glyph count used for submobject slicing. |
 | [mise](https://github.com/jdx/mise) | [#12362](https://github.com/jdx/mise/pull/12362) | Emits the list separator when prepending to `PATH` in elvish, so a new entry no longer fuses onto the first existing one. |
 | [mise](https://github.com/jdx/mise) | [#12361](https://github.com/jdx/mise/pull/12361) | Unsets `__MISE_SESSION` on nushell deactivate, which listed `__MISE_DIFF` twice and left the session marker behind. |
 | [archify](https://github.com/tt-a1i/archify) | [#105](https://github.com/tt-a1i/archify/pull/105) | Rejects unknown options and extra positionals in `render`, which previously wrote a file named after the mistyped flag and exited 0. |
@@ -150,10 +154,6 @@ The newest open contributions waiting for maintainer review, ordered by creation
 | [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#178](https://github.com/virgiliojr94/book-to-skill/pull/178) | Strips invisible Unicode carriers that sit outside the existing format-control filter so reviewers and models read the same text. |
 | [ni](https://github.com/antfu-collective/ni) | [#357](https://github.com/antfu-collective/ni/pull/357) | Reads JSONC-style `package.json` files with comments and trailing commas while preserving the original error for genuinely invalid manifests. |
 | [pi-web](https://github.com/agegr/pi-web) | [#516](https://github.com/agegr/pi-web/pull/516) | Resolves a single session from directory entries and its verified header before falling back to a full catalogue scan. |
-| [pi-web](https://github.com/agegr/pi-web) | [#515](https://github.com/agegr/pi-web/pull/515) | Handles child-process spawn errors and reports unexpected exit codes without adding noise to forwarded shutdowns. |
-| [pi-web](https://github.com/agegr/pi-web) | [#511](https://github.com/agegr/pi-web/pull/511) | Accepts same-origin requests behind a scheme-rewriting proxy only when the forwarded request still matches the `Host` authority. |
-| [Catch2](https://github.com/catchorg/Catch2) | [#3175](https://github.com/catchorg/Catch2/pull/3175) | Adds an opt-in `USE_RELATIVE_PATHS` mode so `PRE_TEST` discovery survives a relocated build tree. |
-| [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | [#387](https://github.com/firecrawl/pdf-inspector/pull/387) | Escapes quotes and newlines in the `pdf2md --json` error object so consumers always receive valid JSON. |
 
 ## 🎒 Inventory / Tech Stack
 
