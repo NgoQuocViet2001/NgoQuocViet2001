@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20260826)
+![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20260905)
 
 [![GitHub](https://img.shields.io/badge/GitHub-NgoQuocViet2001-183143?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NgoQuocViet2001)
 [![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-315A83?style=for-the-badge&logo=vercel&logoColor=white)](https://viet-ngo.hinadau.vip)
@@ -25,17 +25,17 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 
 ## 📊 Adventure Log
 
-Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-08-26**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
+Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-09-05**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg?v=20260826" alt="Retro RPG board showing 107 merged pull requests across 38 community repositories and 60 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg?v=20260905" alt="Retro RPG board showing 116 merged pull requests across 40 community repositories and 67 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
-| **Merged quests** | **107** | External PRs merged by community maintainers in the last 12 months |
-| **Worlds visited** | **38** | Community repositories with at least one merged contribution |
-| **Active quests** | **60** | External PRs currently open for maintainer review |
+| **Merged quests** | **116** | External PRs merged by community maintainers in the last 12 months |
+| **Worlds visited** | **40** | Community repositories with at least one merged contribution |
+| **Active quests** | **67** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -43,6 +43,15 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 
 | Project | PR | Quest result | Merged |
 | --- | --- | --- | --- |
+| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | [#733](https://github.com/microsoft/AI-For-Beginners/pull/733) | Completes a quiz on its own question count, so the fourth question of the lesson 24 post-quiz is no longer skipped. | 2026-09-04 |
+| [Xinference](https://github.com/xorbitsai/inference) | [#5483](https://github.com/xorbitsai/inference/pull/5483) | Counts records under an active ban when reporting a bulk unban, so the number returned agrees with the banned-IP and banned-key listings instead of including expired and never-banned records. | 2026-09-04 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#983](https://github.com/HakanSeven12/OpenCADStudio/pull/983) | Renders DIMAUNIT 4 through the dimension's own DMS formatter, so a drawing authored in surveyor units stops annotating bearings as decimal degrees. | 2026-09-03 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#984](https://github.com/HakanSeven12/OpenCADStudio/pull/984) | Makes `^` right-associative in the expression evaluator, so a chained exponent such as `2^3^2` evaluates to a number instead of returning the text `8^2`. | 2026-09-03 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#982](https://github.com/HakanSeven12/OpenCADStudio/pull/982) | Reads the per-object DIMCLRE and DIMCLRT overrides in the renderer, so extension-line and text colours set in the Properties panel take effect on screen. | 2026-09-03 |
+| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#981](https://github.com/HakanSeven12/OpenCADStudio/pull/981) | Rounds engineering units before splitting feet from inches, so a measurement of 35.999 inches reads `3'-0.00"` rather than the impossible `2'-12.00"`. | 2026-09-03 |
+| [Vite](https://github.com/vitejs/vite) | [#23346](https://github.com/vitejs/vite/pull/23346) | Keeps the image URL when a density descriptor omits its leading zero, so `.5x` candidates are no longer dropped from `srcset` and `image-set()`. | 2026-09-01 |
+| [repowise](https://github.com/repowise-dev/repowise) | [#1752](https://github.com/repowise-dev/repowise/pull/1752) | Shares the sink-reachability walk between the cross-function loop and lock passes while preserving call-line accurate first-hop resolution. | 2026-08-29 |
+| [repowise](https://github.com/repowise-dev/repowise) | [#1751](https://github.com/repowise-dev/repowise/pull/1751) | Makes `coverage add` exit non-zero when it stores nothing, with opt-in strict handling for partial ingests. | 2026-08-27 |
 | [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#178](https://github.com/virgiliojr94/book-to-skill/pull/178) | Strips the invisible carriers a `Cf` category filter misses — deprecated format controls, tag characters, musical format marks — while keeping U+2800 braille blank, which is printable text. | 2026-08-25 |
 | [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#331](https://github.com/earthtojake/text-to-cad/pull/331) | Reads the arc angle keys the DXF parsers actually emit, so a 90° arc stops being drawn as a complete circle. | 2026-08-25 |
 | [mise](https://github.com/jdx/mise) | [#12362](https://github.com/jdx/mise/pull/12362) | Emits the list separator when prepending to `PATH` in elvish, so a new entry no longer fuses onto the first existing one. | 2026-08-25 |
@@ -69,27 +78,19 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 | [cuda-oxide](https://github.com/NVlabs/cuda-oxide) | [#1051](https://github.com/NVlabs/cuda-oxide/pull/1051) | Rejects variadic `#[device]` externs at macro expansion with a source span, including declarations that are never reached by kernel MIR. | 2026-08-20 |
 | [Text-Grab](https://github.com/TheJoeFin/Text-Grab) | [#670](https://github.com/TheJoeFin/Text-Grab/pull/670) | Applies Latin character correction only for Latin-based capture languages across paragraph, table, PDF, Tesseract, and Grab Frame OCR paths. | 2026-08-20 |
 | [Logto](https://github.com/logto-io/logto) | [#9462](https://github.com/logto-io/logto/pull/9462) | Aligns contributor prerequisites with the package engines by documenting Node `^22.14.0` and support for pnpm 9 and 10. | 2026-08-20 |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#301](https://github.com/earthtojake/text-to-cad/pull/301) | Accepts `occurrenceId` rows in Python label aliases and runs the shared alias fixture in both Python and JavaScript to prevent parity drift. | 2026-08-19 |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#300](https://github.com/earthtojake/text-to-cad/pull/300) | Strips only a leading `#` from CAD selectors so interior or trailing hashes remain opaque instead of being silently rewritten into labels. | 2026-08-19 |
-| [Slidev](https://github.com/slidevjs/slidev) | [#2703](https://github.com/slidevjs/slidev/pull/2703) | Defaults deferred manual setup to npm when `create-slidev` is launched without a detectable package manager. | 2026-08-19 |
-| [Yaak](https://github.com/mountain-loop/yaak) | [#577](https://github.com/mountain-loop/yaak/pull/577) | Parses combined curl short flags left to right so common clusters such as `-fsSL` no longer turn `sSL` into the imported URL. | 2026-08-18 |
-| [manim](https://github.com/3b1b/manim) | [#2502](https://github.com/3b1b/manim/pull/2502) | Looks a graph's point up by clamping to the plotted x-range instead of indexing past it, so a lookup outside the unit range returns a point on the curve rather than failing. | 2026-08-17 |
-| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#794](https://github.com/HakanSeven12/OpenCADStudio/pull/794) | Fingerprints a drawing through the handle its own edit lease already holds, so Save As over an existing file no longer fails against this editor's own mandatory Windows lock. | 2026-08-17 |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#283](https://github.com/earthtojake/text-to-cad/pull/283) | Copies a pinned temp file sideways and reruns the rename ladder when an SMB handle outlives it, covering every call site through `replace_atomic` rather than one writer. | 2026-08-17 |
-| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#781](https://github.com/HakanSeven12/OpenCADStudio/pull/781) | Opens printer properties for the printer selected in the plot dialog on Windows instead of the system default. | 2026-08-17 |
-| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#780](https://github.com/HakanSeven12/OpenCADStudio/pull/780) | Clears a half-drawn selection marquee when a command starts, so the pending rubber band cannot survive into the next command's input. | 2026-08-17 |
 
 ## 🏰 Guild History
 
 | Community project | Merged quests | Contribution territory |
 | --- | ---: | --- |
+| [HakanSeven12/OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | **16** | CAD geometry, commands, expression evaluation, dimension styling, unit formatting, DWG rendering, Windows file locking, and printer integration |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | **13** | Codex/MCP reliability, Windows shells, plugin installs, analytics, cache behavior, docs, and regression coverage |
-| [HakanSeven12/OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | **12** | CAD geometry, commands, unit formatting, DWG rendering, Windows file locking, and printer integration |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | **8** | OpenAI-compatible routes, streaming, citations, tool output, Vercel sync, and file metadata |
 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | **8** | Desktop OAuth, deep links, packaging, startup cleanup, RPC security, AppImage release safety, and Windows contributor setup |
 | [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | **6** | Curl import parsing, shell-safe curl and gRPCurl export, OAuth 1.0 PLAINTEXT signing, and JSON template escaping |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | **6** | Base-path routing, reactive frontmatter, addon preprocessing, test lifecycle cleanup, local exports, and scaffold setup |
 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | **5** | Windows SMB write resilience, cross-language CAD selector and label parity, and DXF arc angle parsing |
+| [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | **4** | Health-analysis precision, sink-reachability sharing, wiki page scoping, and CLI exit-code correctness |
 | [github/spec-kit](https://github.com/github/spec-kit) | **4** | Development agent symlinks, safe Kiro multi-install behavior, authentication host matching, and workflow step-type validation |
 | [jdx/mise](https://github.com/jdx/mise) | **4** | Filesystem-safe install linking, portable generated bootstrap paths, and nushell and elvish activation correctness |
 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | **3** | Clipboard schema validation, self-referencing foreign keys, and SQL literal escaping for enum values |
@@ -98,9 +99,9 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | **2** | Offline content download reliability and benchmark startup correctness |
 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | **2** | MCP diagram edit consistency, stale-state protection, and multi-page export preservation |
 | [logto-io/logto](https://github.com/logto-io/logto) | **2** | Tenant initialization error observability and accurate contributor prerequisites |
-| [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | **2** | Health-analysis precision and wiki page scoping |
 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | **2** | ESP32 swarm configuration validation and mesh-to-dashboard documentation |
 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | **2** | Literal handling for bracketed input paths and invisible-carrier sanitization |
+| [vitejs/vite](https://github.com/vitejs/vite) | **2** | Config-bundle resource cleanup on failed generation and srcset density-descriptor parsing |
 
 ### First clears
 
@@ -113,6 +114,7 @@ Community repositories with one merged contribution so far:
 | [agegr/pi-web](https://github.com/agegr/pi-web) | Wrapper process lifecycle, signal forwarding, and exit statuses |
 | [BarutSRB/OmniWM](https://github.com/BarutSRB/OmniWM) | Complete public CLI and IPC command reference |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Accessible keyboard navigation for diagram gallery choices |
+| [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | Quiz completion driven by each quiz's own question count |
 | [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | Nested protocol metadata normalization and header precedence |
 | [NVlabs/cuda-oxide](https://github.com/NVlabs/cuda-oxide) | Early validation for variadic CUDA device extern declarations |
 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | Geographic-to-planar projection for buffer processing |
@@ -125,36 +127,36 @@ Community repositories with one merged contribution so far:
 | [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | Multi-language CLI option documentation |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Language-aware Latin correction across OCR capture paths |
 | [tw93/Pake](https://github.com/tw93/Pake) | CLI startup independence from native image dependencies |
-| [vitejs/vite](https://github.com/vitejs/vite) | Config-bundle resource cleanup on failed generation |
 | [withastro/astro](https://github.com/withastro/astro) | Page-directory boundary correctness and regression coverage |
+| [xorbitsai/inference](https://github.com/xorbitsai/inference) | Truthful ban accounting in bulk unban responses |
 | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | CLI positional argument forwarding |
 
 ## 🔥 Active Quest Queue
 
-The newest open contributions waiting for maintainer review, ordered by creation time. **60** are open in total; the 20 most recent are listed here.
+The newest open contributions waiting for maintainer review, ordered by creation time. **67** are open in total; the 20 most recent are listed here.
 
 | Project | PR | Quest in progress |
 | --- | --- | --- |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#332](https://github.com/earthtojake/text-to-cad/pull/332) | Stops MTEXT paragraph-properties commands leaking their payload into engraved text, and regenerates the two skill bundles the parser is baked into. |
+| [page-agent](https://github.com/alibaba/page-agent) | [#704](https://github.com/alibaba/page-agent/pull/704) | Sets a `<select>` through the native value setter and fires `input` before `change`, so React's change tracker sees the new value instead of dropping the agent's selection. |
+| [page-agent](https://github.com/alibaba/page-agent) | [#700](https://github.com/alibaba/page-agent/pull/700) | Reads the alpha channel when measuring background luminance, so a light page carrying a faint tint is no longer painted with the dark-mode mask. |
+| [page-agent](https://github.com/alibaba/page-agent) | [#699](https://github.com/alibaba/page-agent/pull/699) | Accumulates every frame offset up to the top document, so the visual pointer lands on the element inside a nested iframe rather than hundreds of pixels short. |
+| [page-agent](https://github.com/alibaba/page-agent) | [#698](https://github.com/alibaba/page-agent/pull/698) | Takes the last segment of a model id, so gateway ids with two prefixes stop silently disabling the Claude and Qwen request patches. |
+| [page-agent](https://github.com/alibaba/page-agent) | [#697](https://github.com/alibaba/page-agent/pull/697) | Replaces non-object tool-call arguments before repacking, so the one function meant to absorb malformed model output stops throwing on it. |
+| [page-agent](https://github.com/alibaba/page-agent) | [#696](https://github.com/alibaba/page-agent/pull/696) | Resolves translations from own properties only, rejects intermediate objects, and keeps a deliberately empty string instead of reporting it missing. |
+| [hindsight](https://github.com/vectorize-io/hindsight) | [#4076](https://github.com/vectorize-io/hindsight/pull/4076) | Rolls "last weekend" and 上周末 back a full week on both weekend days, so the question asked on a Sunday stops resolving to the weekend in progress. |
+| [manim](https://github.com/3b1b/manim) | [#2524](https://github.com/3b1b/manim/pull/2524) | Clips channels before the square root in `interpolate_color`, so an overshooting rate function animates the colour instead of turning it white. |
+| [spec-kit](https://github.com/github/spec-kit) | [#4417](https://github.com/github/spec-kit/pull/4417) | Unwraps a group spanning a whole workflow expression, so adding parentheses to make precedence explicit stops inverting the result. |
+| [manim](https://github.com/3b1b/manim) | [#2523](https://github.com/3b1b/manim/pull/2523) | Makes the three array resizers agree on an empty input, which otherwise raised `IndexError` or silently dropped the trailing axis. |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#348](https://github.com/earthtojake/text-to-cad/pull/348) | Falls back to defaults for non-numeric graphics settings, so a stored `null` renders at the field's default rather than its minimum. |
+| [spec-kit](https://github.com/github/spec-kit) | [#4416](https://github.com/github/spec-kit/pull/4416) | Resolves negative list indices in workflow expressions, so `task_list[-1]` returns the last item instead of rendering empty. |
+| [Slidev](https://github.com/slidevjs/slidev) | [#2733](https://github.com/slidevjs/slidev/pull/2733) | Strips an optional title and angle brackets from markdown image destinations, so preloading stops requesting URLs that can never resolve. |
+| [Slidev](https://github.com/slidevjs/slidev) | [#2732](https://github.com/slidevjs/slidev/pull/2732) | Rejects a unit-less timestamp that is not a number, so `duration: 30,5` fails at parse time instead of rendering `NaN` in the timer. |
+| [drawDB](https://github.com/drawdb-io/drawdb) | [#1134](https://github.com/drawdb-io/drawdb/pull/1134) | Resolves identifier nodes when rebuilding CHECK expressions, so imported constraints stop containing `[object Object]`. |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#332](https://github.com/earthtojake/text-to-cad/pull/332) | Stops MTEXT paragraph-properties commands leaking their payload into engraved text, and regenerates the six skill bundles the parser is baked into. |
 | [manim](https://github.com/3b1b/manim) | [#2518](https://github.com/3b1b/manim/pull/2518) | Handles a single reference color and a single output sample in `color_gradient`, which raised `IndexError` and returned the wrong end respectively. |
 | [manim](https://github.com/3b1b/manim) | [#2517](https://github.com/3b1b/manim/pull/2517) | Strips LaTeX environments whose argument carries a star or a column spec, so `align*` stops inflating the glyph count used for submobject slicing. |
-| [archify](https://github.com/tt-a1i/archify) | [#105](https://github.com/tt-a1i/archify/pull/105) | Rejects unknown options and extra positionals in `render`, which previously wrote a file named after the mistyped flag and exited 0. |
-| [Vite](https://github.com/vitejs/vite) | [#23346](https://github.com/vitejs/vite/pull/23346) | Keeps the image URL when a density descriptor omits its leading zero, so `.5x` candidates are no longer dropped from `srcset` and `image-set()`. |
-| [Vite](https://github.com/vitejs/vite) | [#23345](https://github.com/vitejs/vite/pull/23345) | Stops `generateCodeFrame` spinning forever on a CRLF source, turning a build or dev-server error into a hung process. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | [#1125](https://github.com/drawdb-io/drawdb/pull/1125) | Stops treating a plain-text default that merely ends in `(...)` as a SQL function, which emitted it unquoted into the export. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | [#1124](https://github.com/drawdb-io/drawdb/pull/1124) | Keeps a column declared `NULL` nullable on import across five dialects, instead of inverting it to `NOT NULL`. |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1752](https://github.com/repowise-dev/repowise/pull/1752) | Shares the sink-reachability walk between the cross-function loop and lock passes while preserving call-line accurate first-hop resolution. |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1751](https://github.com/repowise-dev/repowise/pull/1751) | Makes `coverage add` exit non-zero when it stores nothing, with opt-in strict handling for partial ingests. |
-| [joshuto](https://github.com/kamiyaa/joshuto) | [#634](https://github.com/kamiyaa/joshuto/pull/634) | Avoids history panics when filtering produces an empty listing or a stored cursor points past its old contents. |
-| [ni](https://github.com/antfu-collective/ni) | [#357](https://github.com/antfu-collective/ni/pull/357) | Reads JSONC-style `package.json` files with comments and trailing commas while preserving the original error for genuinely invalid manifests. |
-| [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | [#37](https://github.com/xuanyustudio/LocalMiniDrama/pull/37) | Routes a custom vendor to the Volcano omni endpoint instead of the default one, so a user-configured provider reaches the right API. |
-| [SQLBot](https://github.com/dataease/SQLBot) | [#1323](https://github.com/dataease/SQLBot/pull/1323) | Tolerates the extra columns a Hive `DESCRIBE` returns, so schema introspection stops failing on Hive sources. |
-| [KrillinAI](https://github.com/krillinai/KrillinAI) | [#308](https://github.com/krillinai/KrillinAI/pull/308) | Preserves the page selection in a Bilibili playlist URL, so a multi-part video downloads the requested part. |
-| [witr](https://github.com/pranshuparmar/witr) | [#231](https://github.com/pranshuparmar/witr/pull/231) | Normalizes localized Windows TCP listener states by name first, so `BOUND`, `CLOSED`, and `DELETE_TCB` stop being reported as `LISTEN`. |
-| [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | [#387](https://github.com/firecrawl/pdf-inspector/pull/387) | Escapes CLI error text before embedding it in JSON output, so a message containing a quote no longer produces an unparseable document. |
-| [Slidev](https://github.com/slidevjs/slidev) | [#2704](https://github.com/slidevjs/slidev/pull/2704) | Returns 404 for an out-of-range slide patch instead of writing past the end of the deck. |
-| [Astro](https://github.com/withastro/astro) | [#17694](https://github.com/withastro/astro/pull/17694) | Fixes MDX page-directory boundary detection so a sibling directory sharing a name prefix is no longer treated as inside the page directory. |
-| [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | [#920](https://github.com/DayuanJiang/next-ai-draw-io/pull/920) | Prevents server model ID collisions so two concurrently registered models no longer overwrite each other. |
 
 ## 🎒 Inventory / Tech Stack
 
