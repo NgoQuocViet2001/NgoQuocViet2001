@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20260905)
+![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20260905b)
 
 [![GitHub](https://img.shields.io/badge/GitHub-NgoQuocViet2001-183143?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NgoQuocViet2001)
 [![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-315A83?style=for-the-badge&logo=vercel&logoColor=white)](https://viet-ngo.hinadau.vip)
@@ -28,7 +28,7 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-09-05**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg?v=20260905" alt="Retro RPG board showing 116 merged pull requests across 40 community repositories and 67 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg?v=20260905b" alt="Retro RPG board showing 116 merged pull requests across 40 community repositories and 67 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |

@@ -94,7 +94,7 @@
     <rect x="64" y="54" width="1162" height="60" fill="#3D2A1D" stroke="#D4A94D" stroke-width="3"/>
     <rect x="76" y="66" width="1048" height="36" fill="#503722"/>
     <text x="96" y="91" fill="#FFF1B7" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="900" letter-spacing="1">COMMUNITY OSS QUEST BOARD</text>
-    <text x="1100" y="90" fill="#E9C766" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="800">SAVE UPDATED 2026-08-26</text>
+    <text x="1100" y="90" fill="#E9C766" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="800">SAVE UPDATED 2026-09-05</text>
 
     <!-- Metric cards -->
     <g>
@@ -136,7 +136,7 @@
       <rect x="10" y="10" width="216" height="72" fill="none" stroke="#A9D3E7" stroke-width="2" stroke-dasharray="6 5"/>
       <path d="M34 21L43 42L66 44L48 59L53 79L34 68L15 79L20 59L2 44L25 42L34 21Z" fill="#F4D35E" stroke="#382817" stroke-width="2"/>
       <text x="82" y="51" fill="#FFFFFF" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="800">CONTRIBUTOR RANK</text>
-      <text x="82" y="76" fill="#FFE97F" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="900">LV. 96</text>
+      <text x="82" y="76" fill="#FFE97F" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="900">LV. 116</text>
     </g>
 
     <!-- Contribution rows -->
