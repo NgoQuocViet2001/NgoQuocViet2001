@@ -1,10 +1,10 @@
 <div align="center">
 
-![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20260905b)
+![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20260905c)
 
 [![GitHub](https://img.shields.io/badge/GitHub-NgoQuocViet2001-183143?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NgoQuocViet2001)
-[![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-315A83?style=for-the-badge&logo=vercel&logoColor=white)](https://viet-ngo.hinadau.vip)
-[![AWS SAA](https://img.shields.io/badge/AWS_SAA-861%2F1000-F0A928?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/b9822361-43e5-40f3-a590-a3c56a1a1d59)
+[![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-315A83?style=for-the-badge)](https://viet-ngo.hinadau.vip)
+[![AWS SAA](https://img.shields.io/badge/AWS_SAA-861%2F1000-F0A928?style=for-the-badge)](https://www.credly.com/badges/b9822361-43e5-40f3-a590-a3c56a1a1d59)
 [![Zalo](https://img.shields.io/badge/Zalo-0971933518-4C86B4?style=for-the-badge&logo=zalo&logoColor=white)](https://zalo.me/0971933518)
 
 </div>
@@ -28,14 +28,14 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-09-05**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg?v=20260905b" alt="Retro RPG board showing 116 merged pull requests across 40 community repositories and 67 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg?v=20260905c" alt="Retro RPG board showing 116 merged pull requests across 40 community repositories and 66 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
 | **Merged quests** | **116** | External PRs merged by community maintainers in the last 12 months |
 | **Worlds visited** | **40** | Community repositories with at least one merged contribution |
-| **Active quests** | **67** | External PRs currently open for maintainer review |
+| **Active quests** | **66** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -52,7 +52,7 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 | [Vite](https://github.com/vitejs/vite) | [#23346](https://github.com/vitejs/vite/pull/23346) | Keeps the image URL when a density descriptor omits its leading zero, so `.5x` candidates are no longer dropped from `srcset` and `image-set()`. | 2026-09-01 |
 | [repowise](https://github.com/repowise-dev/repowise) | [#1752](https://github.com/repowise-dev/repowise/pull/1752) | Shares the sink-reachability walk between the cross-function loop and lock passes while preserving call-line accurate first-hop resolution. | 2026-08-29 |
 | [repowise](https://github.com/repowise-dev/repowise) | [#1751](https://github.com/repowise-dev/repowise/pull/1751) | Makes `coverage add` exit non-zero when it stores nothing, with opt-in strict handling for partial ingests. | 2026-08-27 |
-| [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#178](https://github.com/virgiliojr94/book-to-skill/pull/178) | Strips the invisible carriers a `Cf` category filter misses — deprecated format controls, tag characters, musical format marks — while keeping U+2800 braille blank, which is printable text. | 2026-08-25 |
+| [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#178](https://github.com/virgiliojr94/book-to-skill/pull/178) | Strips four invisible carriers a `Cf` category filter cannot reach — variation selectors, interlinear annotation controls, the braille blank, and zero-width musical marks — while leaving dotted braille patterns and the code points just outside each range alone. | 2026-08-25 |
 | [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#331](https://github.com/earthtojake/text-to-cad/pull/331) | Reads the arc angle keys the DXF parsers actually emit, so a 90° arc stops being drawn as a complete circle. | 2026-08-25 |
 | [mise](https://github.com/jdx/mise) | [#12362](https://github.com/jdx/mise/pull/12362) | Emits the list separator when prepending to `PATH` in elvish, so a new entry no longer fuses onto the first existing one. | 2026-08-25 |
 | [mise](https://github.com/jdx/mise) | [#12361](https://github.com/jdx/mise/pull/12361) | Unsets `__MISE_SESSION` on nushell deactivate, which listed `__MISE_DIFF` twice and left the session marker behind. | 2026-08-25 |
@@ -114,6 +114,7 @@ Community repositories with one merged contribution so far:
 | [agegr/pi-web](https://github.com/agegr/pi-web) | Wrapper process lifecycle, signal forwarding, and exit statuses |
 | [BarutSRB/OmniWM](https://github.com/BarutSRB/OmniWM) | Complete public CLI and IPC command reference |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Accessible keyboard navigation for diagram gallery choices |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | CLI benchmark failure accounting by response envelope |
 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | Quiz completion driven by each quiz's own question count |
 | [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | Nested protocol metadata normalization and header precedence |
 | [NVlabs/cuda-oxide](https://github.com/NVlabs/cuda-oxide) | Early validation for variadic CUDA device extern declarations |
@@ -121,7 +122,6 @@ Community repositories with one merged contribution so far:
 | [pacifio/atlas](https://github.com/pacifio/atlas) | Agent turn epoch handling and late transcript events |
 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | Sanity-check data correctness and regression coverage |
 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | Cross-platform repository symlink integrity |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | CLI benchmark failure accounting by response envelope |
 | [pnpm/pnpm](https://github.com/pnpm/pnpm) | Prerelease range-style preservation across TypeScript and Rust update paths |
 | [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) | CLI argument validation before authentication |
 | [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | Multi-language CLI option documentation |
@@ -133,30 +133,30 @@ Community repositories with one merged contribution so far:
 
 ## 🔥 Active Quest Queue
 
-The newest open contributions waiting for maintainer review, ordered by creation time. **67** are open in total; the 20 most recent are listed here.
+The newest open contributions waiting for maintainer review, ordered by creation time. **66** are open in total; the 20 most recent are listed here.
 
 | Project | PR | Quest in progress |
 | --- | --- | --- |
 | [page-agent](https://github.com/alibaba/page-agent) | [#704](https://github.com/alibaba/page-agent/pull/704) | Sets a `<select>` through the native value setter and fires `input` before `change`, so React's change tracker sees the new value instead of dropping the agent's selection. |
 | [page-agent](https://github.com/alibaba/page-agent) | [#700](https://github.com/alibaba/page-agent/pull/700) | Reads the alpha channel when measuring background luminance, so a light page carrying a faint tint is no longer painted with the dark-mode mask. |
 | [page-agent](https://github.com/alibaba/page-agent) | [#699](https://github.com/alibaba/page-agent/pull/699) | Accumulates every frame offset up to the top document, so the visual pointer lands on the element inside a nested iframe rather than hundreds of pixels short. |
-| [page-agent](https://github.com/alibaba/page-agent) | [#698](https://github.com/alibaba/page-agent/pull/698) | Takes the last segment of a model id, so gateway ids with two prefixes stop silently disabling the Claude and Qwen request patches. |
+| [page-agent](https://github.com/alibaba/page-agent) | [#698](https://github.com/alibaba/page-agent/pull/698) | Takes the last segment of a model id, so a gateway id with two prefixes stops disabling the Claude patch and stops misfiring the Qwen one, which raised the temperature on exactly the models its `max`/`plus` check excludes. |
 | [page-agent](https://github.com/alibaba/page-agent) | [#697](https://github.com/alibaba/page-agent/pull/697) | Replaces non-object tool-call arguments before repacking, so the one function meant to absorb malformed model output stops throwing on it. |
 | [page-agent](https://github.com/alibaba/page-agent) | [#696](https://github.com/alibaba/page-agent/pull/696) | Resolves translations from own properties only, rejects intermediate objects, and keeps a deliberately empty string instead of reporting it missing. |
 | [hindsight](https://github.com/vectorize-io/hindsight) | [#4076](https://github.com/vectorize-io/hindsight/pull/4076) | Rolls "last weekend" and 上周末 back a full week on both weekend days, so the question asked on a Sunday stops resolving to the weekend in progress. |
 | [manim](https://github.com/3b1b/manim) | [#2524](https://github.com/3b1b/manim/pull/2524) | Clips channels before the square root in `interpolate_color`, so an overshooting rate function animates the colour instead of turning it white. |
 | [spec-kit](https://github.com/github/spec-kit) | [#4417](https://github.com/github/spec-kit/pull/4417) | Unwraps a group spanning a whole workflow expression, so adding parentheses to make precedence explicit stops inverting the result. |
 | [manim](https://github.com/3b1b/manim) | [#2523](https://github.com/3b1b/manim/pull/2523) | Makes the three array resizers agree on an empty input, which otherwise raised `IndexError` or silently dropped the trailing axis. |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#348](https://github.com/earthtojake/text-to-cad/pull/348) | Falls back to defaults for non-numeric graphics settings, so a stored `null` renders at the field's default rather than its minimum. |
 | [spec-kit](https://github.com/github/spec-kit) | [#4416](https://github.com/github/spec-kit/pull/4416) | Resolves negative list indices in workflow expressions, so `task_list[-1]` returns the last item instead of rendering empty. |
 | [Slidev](https://github.com/slidevjs/slidev) | [#2733](https://github.com/slidevjs/slidev/pull/2733) | Strips an optional title and angle brackets from markdown image destinations, so preloading stops requesting URLs that can never resolve. |
 | [Slidev](https://github.com/slidevjs/slidev) | [#2732](https://github.com/slidevjs/slidev/pull/2732) | Rejects a unit-less timestamp that is not a number, so `duration: 30,5` fails at parse time instead of rendering `NaN` in the timer. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | [#1134](https://github.com/drawdb-io/drawdb/pull/1134) | Resolves identifier nodes when rebuilding CHECK expressions, so imported constraints stop containing `[object Object]`. |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#332](https://github.com/earthtojake/text-to-cad/pull/332) | Stops MTEXT paragraph-properties commands leaking their payload into engraved text, and regenerates the six skill bundles the parser is baked into. |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#332](https://github.com/earthtojake/text-to-cad/pull/332) | Stops MTEXT paragraph-properties commands leaking their payload into engraved text, and regenerates the two skill bundles the parser is baked into. |
 | [manim](https://github.com/3b1b/manim) | [#2518](https://github.com/3b1b/manim/pull/2518) | Handles a single reference color and a single output sample in `color_gradient`, which raised `IndexError` and returned the wrong end respectively. |
 | [manim](https://github.com/3b1b/manim) | [#2517](https://github.com/3b1b/manim/pull/2517) | Strips LaTeX environments whose argument carries a star or a column spec, so `align*` stops inflating the glyph count used for submobject slicing. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | [#1125](https://github.com/drawdb-io/drawdb/pull/1125) | Stops treating a plain-text default that merely ends in `(...)` as a SQL function, which emitted it unquoted into the export. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | [#1124](https://github.com/drawdb-io/drawdb/pull/1124) | Keeps a column declared `NULL` nullable on import across five dialects, instead of inverting it to `NOT NULL`. |
+| [joshuto](https://github.com/kamiyaa/joshuto) | [#634](https://github.com/kamiyaa/joshuto/pull/634) | Returns no visual-mode anchor when a listing filters down to nothing, so toggling hidden files off in a dotfile-only directory stops underflowing `contents_len - 1` and panicking. |
 
 ## 🎒 Inventory / Tech Stack
 
