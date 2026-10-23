@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20261002)
+![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20261023)
 
 [![GitHub](https://img.shields.io/badge/GitHub-NgoQuocViet2001-183143?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NgoQuocViet2001)
 [![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-315A83?style=for-the-badge)](https://viet-ngo.hinadau.vip)
@@ -25,17 +25,17 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 
 ## 📊 Adventure Log
 
-Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-10-02**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
+Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-10-23**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg?v=20261002" alt="Retro RPG board showing 139 merged pull requests across 48 community repositories and 66 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg?v=20261023" alt="Retro RPG board showing 144 merged pull requests across 55 community repositories and 65 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
-| **Merged quests** | **139** | External PRs merged by community maintainers in the last 12 months |
-| **Worlds visited** | **48** | Community repositories with at least one merged contribution |
-| **Active quests** | **66** | External PRs currently open for maintainer review |
+| **Merged quests** | **144** | External PRs merged by community maintainers in the last 12 months |
+| **Worlds visited** | **55** | Community repositories with at least one merged contribution |
+| **Active quests** | **65** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -43,6 +43,19 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 
 | Project | PR | Quest result | Merged |
 | --- | --- | --- | --- |
+| [Puppeteer](https://github.com/puppeteer/puppeteer) | [#15581](https://github.com/puppeteer/puppeteer/pull/15581) | Requires every `domain`, `path`, `url` and `partitionKey` given to `deleteMatchingCookies` to match, so a filter for one domain no longer deletes same-name cookies on other domains, paths or partitions. | 2026-10-20 |
+| [Hono](https://github.com/honojs/hono) | [#5498](https://github.com/honojs/hono/pull/5498) | Falls back to single-segment matching for regex params in `basePath()`, as the router does, so a `/api/:version{v[0-9]+}` mount reports `/api/v2` instead of `/api/`. | 2026-10-16 |
+| [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) | [#2307](https://github.com/SBoudrias/Inquirer.js/pull/2307) | Trims `number` prompt input before falling back to the default, so whitespace-only input gives the default or the required error instead of answering `0`. | 2026-10-15 |
+| [Mongoose](https://github.com/Automattic/mongoose) | [#16592](https://github.com/Automattic/mongoose/pull/16592) | Reads the mode from a `ReadPreference` instance or `{ mode }` object in connection options, so a primary instance no longer turns off `autoIndex` and `autoCreate`, which left schema indexes unbuilt. | 2026-10-14 |
+| [vscode-languageserver-node](https://github.com/microsoft/vscode-languageserver-node) | [#1886](https://github.com/microsoft/vscode-languageserver-node/pull/1886) | Removes deleted cells from the `NotebookDocuments` cell map, so `getNotebookCell` and `findNotebookDocumentForCell` return `undefined` for them instead of keeping the closed notebook reachable. | 2026-10-14 |
+| [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | [#37](https://github.com/xuanyustudio/LocalMiniDrama/pull/37) | Defaults a custom provider on the `volcengine_omni` protocol to the Volcengine Ark task endpoints for submitting and polling videos, instead of OpenAI-compatible paths, while explicit endpoint overrides still apply. | 2026-10-13 |
+| [Yaak](https://github.com/mountain-loop/yaak) | [#723](https://github.com/mountain-loop/yaak/pull/723) | Returns the value of attribute, text and CDATA nodes selected by XPath, which previously rendered as empty strings. | 2026-10-07 |
+| [marked](https://github.com/markedjs/marked) | [#4115](https://github.com/markedjs/marked/pull/4115) | Ends a block quote before a lazy line that follows a heading, thematic break or HTML block, as CommonMark specifies. | 2026-10-06 |
+| [Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io) | [#894](https://github.com/DayuanJiang/next-ai-draw-io/pull/894) | Reports the admin settings file as not writable when `SETTINGS_FILE` points to a directory, instead of checking only the parent directory and letting the later save fail. | 2026-10-05 |
+| [Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io) | [#920](https://github.com/DayuanJiang/next-ai-draw-io/pull/920) | Proposes a hash suffix for server model IDs that collide when provider names like `Open AI` and `Open-AI` slugify alike; the merge kept the maintainer's fix already on main, so no code changed. | 2026-10-05 |
+| [vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | [#2424](https://github.com/microsoft/vscode-js-debug/pull/2424) | Lets a `**` in the middle of a `skipFiles` glob match zero directories, so `lib/**/*.js` also skips `lib/index.js`. | 2026-10-05 |
+| [witr](https://github.com/pranshuparmar/witr) | [#231](https://github.com/pranshuparmar/witr/pull/231) | Detects Windows listeners whose `netstat` state is localized, such as German `ABHÖREN`, from their zero-port remote endpoint, so they appear as `LISTEN` while `BOUND` and `CLOSED` rows keep their own state. | 2026-10-03 |
+| [Slidev](https://github.com/slidevjs/slidev) | [#2760](https://github.com/slidevjs/slidev/pull/2760) | Accepts `#` and `+` in fence languages, so `c#`, `c++` and `f#` blocks keep their grammar, title and ranges, and work in Magic Move. | 2026-10-02 |
 | [Spec Kit](https://github.com/github/spec-kit) | [#4417](https://github.com/github/spec-kit/pull/4417) | Unwraps a group spanning a whole workflow expression, so adding parentheses to make precedence explicit stops inverting the result. | 2026-09-29 |
 | [Spec Kit](https://github.com/github/spec-kit) | [#4416](https://github.com/github/spec-kit/pull/4416) | Resolves negative list indices in workflow expressions, so `task_list[-1]` returns the last item instead of rendering empty. | 2026-09-29 |
 | [vscode-languageserver-node](https://github.com/microsoft/vscode-languageserver-node) | [#1857](https://github.com/microsoft/vscode-languageserver-node/pull/1857) | Releases the parallelism slot when a dispatched message rejects, so one failed response write no longer stalls every later message on a connection with `maxParallelism`. | 2026-09-29 |
@@ -65,42 +78,30 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 | [OpenHuman](https://github.com/tinyhumansai/openhuman) | [#5455](https://github.com/tinyhumansai/openhuman/pull/5455) | Makes the Windows installer fail with a real PowerShell error and a non-zero exit code when a release, checksum or MSI/EXE step fails, instead of printing a message and returning success. | 2026-09-11 |
 | [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice) | [#497](https://github.com/microsoft/vscode-css-languageservice/pull/497) | Treats ICSS `:import(...)` blocks like `:export`, so their aliases stop being reported as unknown properties. | 2026-09-08 |
 | [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice) | [#496](https://github.com/microsoft/vscode-css-languageservice/pull/496) | Inserts the CSS Color 4 `rgb(R G B / A)` form for the `rgb` completion, so alpha no longer needs the legacy `rgba` alias. | 2026-09-08 |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | [#4076](https://github.com/vectorize-io/hindsight/pull/4076) | Rolls "last weekend" and 上周末 back a full week on both weekend days, so the question asked on a Sunday stops resolving to the weekend in progress. | 2026-09-07 |
-| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | [#733](https://github.com/microsoft/AI-For-Beginners/pull/733) | Completes a quiz on its own question count, so the fourth question of the lesson 24 post-quiz is no longer skipped. | 2026-09-04 |
-| [Xinference](https://github.com/xorbitsai/inference) | [#5483](https://github.com/xorbitsai/inference/pull/5483) | Counts records under an active ban when reporting a bulk unban, so the number returned agrees with the banned-IP and banned-key listings instead of including expired and never-banned records. | 2026-09-04 |
-| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#983](https://github.com/HakanSeven12/OpenCADStudio/pull/983) | Renders DIMAUNIT 4 through the dimension's own DMS formatter, so a drawing authored in surveyor units stops annotating bearings as decimal degrees. | 2026-09-03 |
-| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#984](https://github.com/HakanSeven12/OpenCADStudio/pull/984) | Makes `^` right-associative in the expression evaluator, so a chained exponent such as `2^3^2` evaluates to a number instead of returning the text `8^2`. | 2026-09-03 |
-| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#982](https://github.com/HakanSeven12/OpenCADStudio/pull/982) | Reads the per-object DIMCLRE and DIMCLRT overrides in the renderer, so extension-line and text colours set in the Properties panel take effect on screen. | 2026-09-03 |
-| [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | [#981](https://github.com/HakanSeven12/OpenCADStudio/pull/981) | Rounds engineering units before splitting feet from inches, so a measurement of 35.999 inches reads `3'-0.00"` rather than the impossible `2'-12.00"`. | 2026-09-03 |
-| [Vite](https://github.com/vitejs/vite) | [#23346](https://github.com/vitejs/vite/pull/23346) | Keeps the image URL when a density descriptor omits its leading zero, so `.5x` candidates are no longer dropped from `srcset` and `image-set()`. | 2026-09-01 |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1752](https://github.com/repowise-dev/repowise/pull/1752) | Shares the sink-reachability walk between the cross-function loop and lock passes while preserving call-line accurate first-hop resolution. | 2026-08-29 |
-| [repowise](https://github.com/repowise-dev/repowise) | [#1751](https://github.com/repowise-dev/repowise/pull/1751) | Makes `coverage add` exit non-zero when it stores nothing, with opt-in strict handling for partial ingests. | 2026-08-27 |
-| [book-to-skill](https://github.com/virgiliojr94/book-to-skill) | [#178](https://github.com/virgiliojr94/book-to-skill/pull/178) | Strips four invisible carriers a `Cf` category filter cannot reach — variation selectors, interlinear annotation controls, the braille blank, and zero-width musical marks — while leaving dotted braille patterns and the code points just outside each range alone. | 2026-08-25 |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | [#331](https://github.com/earthtojake/text-to-cad/pull/331) | Reads the arc angle keys the DXF parsers actually emit, so a 90° arc stops being drawn as a complete circle. | 2026-08-25 |
-| [mise](https://github.com/jdx/mise) | [#12362](https://github.com/jdx/mise/pull/12362) | Emits the list separator when prepending to `PATH` in elvish, so a new entry no longer fuses onto the first existing one. | 2026-08-25 |
 
 ## 🏰 Guild History
 
 | Community project | Merged quests | Contribution territory |
 | --- | ---: | --- |
 | [HakanSeven12/OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | **16** | CAD geometry, commands, expression evaluation, dimension styling, unit formatting, DWG rendering, Windows file locking, and printer integration |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | **13** | Codex/MCP reliability, Windows shells, plugin installs, analytics, cache behavior, docs, and regression coverage |
-| [slidevjs/slidev](https://github.com/slidevjs/slidev) | **10** | Base-path routing, reactive frontmatter, addon preprocessing, test lifecycle cleanup, local exports, scaffold setup, slide-patch bounds, parser input validation, and Monaco write-back paths |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | **11** | Base-path routing, reactive frontmatter, addon preprocessing, test lifecycle cleanup, local exports, scaffold setup, slide-patch bounds, parser input validation, Monaco write-back paths, and code-fence language parsing |
+| [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | **9** | Curl import parsing, shell-safe curl and gRPCurl export, OAuth 1.0 PLAINTEXT signing, JSON template escaping, Postman API key import, UUID v6 timestamps, and XPath attribute and text-node values |
 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | **9** | Desktop OAuth, deep links, packaging, startup cleanup, RPC security, AppImage release safety, Windows contributor setup, and Windows installer failure reporting |
 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | **8** | OpenAI-compatible routes, streaming, citations, tool output, Vercel sync, and file metadata |
-| [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | **8** | Curl import parsing, shell-safe curl and gRPCurl export, OAuth 1.0 PLAINTEXT signing, JSON template escaping, Postman API key import, and UUID v6 timestamps |
 | [github/spec-kit](https://github.com/github/spec-kit) | **6** | Development agent symlinks, safe Kiro multi-install behavior, authentication host matching, workflow step-type validation, and workflow expression indexing and grouping |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | **5** | Local AI model storage, onboarding, endpoint fallback, startup feedback, and reproducible setup |
 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | **5** | Windows SMB write resilience, cross-language CAD selector and label parity, and DXF arc angle parsing |
 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | **4** | Offline content download reliability, benchmark startup correctness, orphaned download-job handling, and chat stream cleanup |
+| [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | **4** | MCP diagram edit consistency, stale-state protection, multi-page export preservation, and admin settings path validation |
 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | **4** | Clipboard schema validation, self-referencing foreign keys, SQL literal escaping for enum values, and SQL Server export of fieldless custom types |
 | [jdx/mise](https://github.com/jdx/mise) | **4** | Filesystem-safe install linking, portable generated bootstrap paths, and nushell and elvish activation correctness |
 | [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | **4** | Health-analysis precision, sink-reachability sharing, wiki page scoping, and CLI exit-code correctness |
+| [microsoft/vscode-languageserver-node](https://github.com/microsoft/vscode-languageserver-node) | **3** | JSON-RPC parallelism slot accounting, semantic-token delta baselines, and notebook cell-map cleanup for deleted cells |
 | [neurosnap/zmx](https://github.com/neurosnap/zmx) | **3** | Session wildcard matching, prefixed picker behavior, and nested-session documentation |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | **3** | CLI validation, renderer-bound safety, and full-width text measurement |
-| [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | **2** | MCP diagram edit consistency, stale-state protection, and multi-page export preservation |
 | [logto-io/logto](https://github.com/logto-io/logto) | **2** | Tenant initialization error observability and accurate contributor prerequisites |
+| [markedjs/marked](https://github.com/markedjs/marked) | **2** | CommonMark link reference label normalization and block quote lazy-continuation boundaries |
 | [microsoft/vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice) | **2** | CSS Color 4 `rgb()` completions and ICSS `:import` property linting |
-| [microsoft/vscode-languageserver-node](https://github.com/microsoft/vscode-languageserver-node) | **2** | JSON-RPC parallelism slot accounting and semantic-token delta baselines |
 | [nodejs/undici](https://github.com/nodejs/undici) | **2** | Decompression encoding lookup safety and cookie `Expires` serialization |
 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | **2** | ESP32 swarm configuration validation and mesh-to-dashboard documentation |
 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | **2** | Literal handling for bracketed input paths and invisible-carrier sanitization |
@@ -115,11 +116,13 @@ Community repositories with one merged contribution so far:
 | [3b1b/manim](https://github.com/3b1b/manim) | Graph point lookup on manual curves outside unit x-ranges |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Eval grader-result validation and summary integrity |
 | [agegr/pi-web](https://github.com/agegr/pi-web) | Wrapper process lifecycle, signal forwarding, and exit statuses |
+| [Automattic/mongoose](https://github.com/Automattic/mongoose) | `ReadPreference` instance handling for index and collection auto-creation |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Accessible keyboard navigation for diagram gallery choices |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | Remote install manifest size enforcement |
+| [honojs/hono](https://github.com/honojs/hono) | Base-path resolution for regex route params |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | CLI benchmark failure accounting by response envelope |
-| [markedjs/marked](https://github.com/markedjs/marked) | CommonMark link reference label normalization |
 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | Quiz completion driven by each quiz's own question count |
+| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | Zero-directory matching for middle `**` in skipFiles globs |
 | [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | Nested protocol metadata normalization and header precedence |
 | [NVIDIA/cuda-rust](https://github.com/NVIDIA/cuda-rust) | Early validation for variadic CUDA device extern declarations |
 | [OmniNull/OmniWM](https://github.com/OmniNull/OmniWM) | Complete public CLI and IPC command reference |
@@ -128,43 +131,47 @@ Community repositories with one merged contribution so far:
 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | Sanity-check data correctness and regression coverage |
 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | Cross-platform repository symlink integrity |
 | [pnpm/pnpm](https://github.com/pnpm/pnpm) | Prerelease range-style preservation across TypeScript and Rust update paths |
+| [pranshuparmar/witr](https://github.com/pranshuparmar/witr) | Localized Windows netstat listener detection |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | Cookie deletion filters by domain, path, URL, and partition key |
 | [python-poetry/poetry](https://github.com/python-poetry/poetry) | Extension wheel tag handling in the build tests |
 | [rollup/rollup](https://github.com/rollup/rollup) | CRLF-safe line-break removal when suppressing ASI |
 | [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) | CLI argument validation before authentication |
+| [SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js) | Whitespace-only input handling in number prompts |
 | [supertone-oss-archive/supertonic](https://github.com/supertone-oss-archive/supertonic) | Multi-language CLI option documentation |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Language-aware Latin correction across OCR capture paths |
 | [tw93/Pake](https://github.com/tw93/Pake) | CLI startup independence from native image dependencies |
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Weekend-relative date resolution |
 | [withastro/astro](https://github.com/withastro/astro) | Page-directory boundary correctness and regression coverage |
 | [xorbitsai/inference](https://github.com/xorbitsai/inference) | Truthful ban accounting in bulk unban responses |
+| [xuanyustudio/LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | Volcengine Omni endpoint routing for custom video providers |
 | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | CLI positional argument forwarding |
 
 ## 🔥 Active Quest Queue
 
-The newest open contributions waiting for maintainer review, ordered by creation time. **66** are open in total; the 20 most recent are listed here.
+The newest open contributions waiting for maintainer review, ordered by creation time. **65** are open in total; the 20 most recent are listed here.
 
 | Project | PR | Quest in progress |
 | --- | --- | --- |
-| [Astro](https://github.com/withastro/astro) | [#18200](https://github.com/withastro/astro/pull/18200) | Escapes `#` and `?` before resolving `glob()` entry paths, so a file such as `c#-basics.md` is loaded instead of being read from `.../c` and dropped. |
+| [Cheerio](https://github.com/cheeriojs/cheerio) | [#5625](https://github.com/cheeriojs/cheerio/pull/5625) | Strips and collapses ASCII whitespace and skips `<script>` text when a valueless `<option>` falls back to its text, so the option value, single-select `val()` and `serializeArray()` match the browser outside XML mode. |
+| [Valibot](https://github.com/open-circle/valibot) | [#1705](https://github.com/open-circle/valibot/pull/1705) | Requires a 978 or 979 prefix before `isbn` accepts a 13-digit value, so other EAN-13 barcodes with a valid check digit no longer pass as ISBNs. |
+| [SvelteKit](https://github.com/sveltejs/kit) | [#17426](https://github.com/sveltejs/kit/pull/17426) | Leaves cookies deleted during the request out of the `cookie` header that `event.fetch` forwards and picks the most specific path per name, so endpoints see `undefined` instead of an empty value. |
+| [Excalidraw](https://github.com/excalidraw/excalidraw) | [#12289](https://github.com/excalidraw/excalidraw/pull/12289) | Matches file handle extensions case-insensitively, so saving to an opened `Diagram.PNG` or `Diagram.SVG` re-exports the image with its scene instead of overwriting it with `.excalidraw` JSON. |
+| [Tokio](https://github.com/tokio-rs/tokio) | [#8642](https://github.com/tokio-rs/tokio/pull/8642) | Waits for an in-flight operation to finish before `File` reports a saved background write error, so `set_len` and `into_std` no longer panic after a cancelled read or seek. |
+| [React Router](https://github.com/remix-run/react-router) | [#15627](https://github.com/remix-run/react-router/pull/15627) | Checks the full accumulated path when `prerender: true` collects static routes, so static children of dynamic or splat parents like `/:lang/about` are skipped instead of prerendered as literal URLs. |
+| [Gin](https://github.com/gin-gonic/gin) | [#4888](https://github.com/gin-gonic/gin/pull/4888) | Skips nil pointers in `defaultValidator.ValidateStruct`, so binding `null` into a `*T` or `[null]` into a `[]*T` no longer panics while non-nil elements are still validated. |
+| [Redux Toolkit](https://github.com/reduxjs/redux-toolkit) | [#5472](https://github.com/reduxjs/redux-toolkit/pull/5472) | Stops merging `name[]` array params, and `name[prop]` params that clash with a plain `name` param, into one object, so the codegen no longer emits empty-key array wrappers or duplicate keys that fail `tsc`. |
+| [Socket.IO](https://github.com/socketio/socket.io) | [#5574](https://github.com/socketio/socket.io/pull/5574) | Keeps everything after the first `=` when the engine.io client decodes a query string, so `token=abc==` reaches the server as `abc==` and a bare key decodes to an empty string instead of `"undefined"`. |
+| [Vue](https://github.com/vuejs/core) | [#15864](https://github.com/vuejs/core/pull/15864) | Restores the leading dash when `stringifyStyle` hyphenates camelCase vendor-prefixed keys like `WebkitLineClamp`, so SSR and stringified static `:style` output emit `-webkit-line-clamp` instead of a property browsers drop. |
 | [Mermaid](https://github.com/mermaid-js/mermaid) | [#8359](https://github.com/mermaid-js/mermaid/pull/8359) | Resets the gantt task-id index in `clear()`, so a later diagram stops resolving `after` dependencies and click handlers against an earlier diagram's tasks. |
-| [Hono](https://github.com/honojs/hono) | [#5498](https://github.com/honojs/hono/pull/5498) | Falls back to single-segment matching for regex params in `basePath()`, as the router does, so a `/api/:version{v[0-9]+}` mount reports `/api/v2` instead of `/api/`. |
 | [undici](https://github.com/nodejs/undici) | [#5953](https://github.com/nodejs/undici/pull/5953) | Stores repeated response headers as arrays in mock snapshots, so two `Set-Cookie` headers replay as two cookies instead of one comma-joined value. |
-| [Slidev](https://github.com/slidevjs/slidev) | [#2760](https://github.com/slidevjs/slidev/pull/2760) | Accepts `#` and `+` in fence languages, so `c#`, `c++` and `f#` blocks keep their grammar, title and ranges, and work in Magic Move. |
 | [Svelte](https://github.com/sveltejs/svelte) | [#18903](https://github.com/sveltejs/svelte/pull/18903) | Decodes numeric character references in planes 3, 15 and 16 instead of replacing them with U+0000. |
-| [Yaak](https://github.com/mountain-loop/yaak) | [#723](https://github.com/mountain-loop/yaak/pull/723) | Returns the value of attribute, text and CDATA nodes selected by XPath, which previously rendered as empty strings. |
 | [Poetry](https://github.com/python-poetry/poetry) | [#11120](https://github.com/python-poetry/poetry/pull/11120) | Normalizes `POETRY_CERTIFICATES_<NAME>_CERT=false` to a boolean, so it disables TLS verification instead of being used as a CA bundle path named `false`. |
-| [vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | [#2424](https://github.com/microsoft/vscode-js-debug/pull/2424) | Lets a `**` in the middle of a `skipFiles` glob match zero directories, so `lib/**/*.js` also skips `lib/index.js`. |
-| [marked](https://github.com/markedjs/marked) | [#4115](https://github.com/markedjs/marked/pull/4115) | Ends a block quote before a lazy line that follows a heading, thematic break or HTML block, as CommonMark specifies. |
 | [vscode-textmate](https://github.com/microsoft/vscode-textmate) | [#302](https://github.com/microsoft/vscode-textmate/pull/302) | Skips a zero-width range in `LineFonts.produceFromScopes`, as `LineTokens` already does, so a zero-width rule end no longer creates an empty font range. |
 | [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice) | [#261](https://github.com/microsoft/vscode-html-languageservice/pull/261) | Anchors the `#endregion` marker regex, so a comment that merely contains the word *endregion* stops closing the open region. |
 | [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice) | [#368](https://github.com/microsoft/vscode-json-languageservice/pull/368) | Runs the `$vocabulary` gate for keywords introduced in 2019-09 and later, such as `dependentRequired` and `unevaluatedProperties`, instead of enabling them by draft alone. |
 | [Express](https://github.com/expressjs/express) | [#7467](https://github.com/expressjs/express/pull/7467) | Treats the app `etag` setting as a default for `res.sendFile()`, so an explicit `etag: false` option is respected again. |
 | [Fastify](https://github.com/fastify/fastify) | [#7023](https://github.com/fastify/fastify/pull/7023) | Makes `removeContentTypeParser('*')` and `hasContentTypeParser('*')` find the catch-all parser, which is stored under a different key. |
 | [date-fns](https://github.com/date-fns/date-fns) | [#4320](https://github.com/date-fns/date-fns/pull/4320) | Parses Vietnamese quarters II and III as Q2 and Q3 instead of Q1. |
-| [manim](https://github.com/3b1b/manim) | [#2532](https://github.com/3b1b/manim/pull/2532) | Uses the step from a three-element `x_range` when extending the right endpoint in `get_riemann_rectangles`, and stops mutating the caller's sequence. |
-| [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice) | [#521](https://github.com/microsoft/vscode-css-languageservice/pull/521) | Gives each LCS matrix row its own array in `difference()`, so rows no longer share one array and corrupt each other's values. |
-| [page-agent](https://github.com/alibaba/page-agent) | [#704](https://github.com/alibaba/page-agent/pull/704) | Sets a `<select>` through the native value setter and fires `input` before `change`, so React's change tracker sees the new value instead of dropping the agent's selection. |
-| [page-agent](https://github.com/alibaba/page-agent) | [#700](https://github.com/alibaba/page-agent/pull/700) | Blends a translucent background over what is behind it when measuring luminance, so a light page carrying a faint tint is no longer painted with the dark-mode mask. |
 
 ## 🎒 Inventory / Tech Stack
 
