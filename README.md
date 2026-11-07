@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20261105)
+![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20261107)
 
 [![GitHub](https://img.shields.io/badge/GitHub-NgoQuocViet2001-183143?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NgoQuocViet2001)
 [![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-315A83?style=for-the-badge)](https://viet-ngo.hinadau.vip)
@@ -25,17 +25,17 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 
 ## 📊 Adventure Log
 
-Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-11-05**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
+Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-11-07**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg?v=20261105" alt="Retro RPG board showing 179 merged pull requests across 73 community repositories and 90 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg?v=20261107" alt="Retro RPG board showing 195 merged pull requests across 77 community repositories and 87 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
-| **Merged quests** | **179** | External PRs merged by community maintainers in the last 12 months |
-| **Worlds visited** | **73** | Community repositories with at least one merged contribution |
-| **Active quests** | **90** | External PRs currently open for maintainer review |
+| **Merged quests** | **195** | External PRs merged by community maintainers in the last 12 months |
+| **Worlds visited** | **77** | Community repositories with at least one merged contribution |
+| **Active quests** | **87** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -43,6 +43,9 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 
 | Project | PR | Quest result | Merged |
 | --- | --- | --- | --- |
+| [concurrently](https://github.com/open-cli-tools/concurrently) | [#640](https://github.com/open-cli-tools/concurrently/pull/640) | Registers a command as an input target under its name only when it has one, so with `--handle-input` a line like `:observer.start()` goes unchanged to the default target instead of reaching the last unnamed command with its colon stripped. | 2026-11-07 |
+| [{fmt}](https://github.com/fmtlib/fmt) | [#4999](https://github.com/fmtlib/fmt/pull/4999) | Uses the native or generic string the path formatter selected for wide output too, so `L"{:g}"` prints `C:/foo` on Windows like `"{:g}"` does instead of ignoring `g`, and wide `{:g}` and `{:?g}` keep the generic form on POSIX. | 2026-11-06 |
+| [indicatif](https://github.com/console-rs/indicatif) | [#854](https://github.com/console-rs/indicatif/pull/854) | Makes `MultiProgress::add` and the `insert*` methods return an existing member unchanged, as documented, so re-adding a bar no longer moves it or leaves a stale slot that stops finished bars from being pruned. | 2026-11-05 |
 | [MikroORM](https://github.com/mikro-orm/mikro-orm) | [#8518](https://github.com/mikro-orm/mikro-orm/pull/8518) | Reads the collation, inline check and generated expression of the first column during SQLite introspection, so a collated or enum primary key no longer makes `getUpdateSchemaSQL()` rebuild the table right after `schema.create()`. | 2026-11-04 |
 | [Puppeteer](https://github.com/puppeteer/puppeteer) | [#15694](https://github.com/puppeteer/puppeteer/pull/15694) | Records the `buildIdAlias` in the cache metadata even when the build is already installed, so `launch chrome@canary` finds a cached Canary build and an alias that pointed to an older build is updated. | 2026-11-03 |
 | [TypeScript-DOM-lib-generator](https://github.com/microsoft/TypeScript-DOM-lib-generator) | [#2576](https://github.com/microsoft/TypeScript-DOM-lib-generator/pull/2576) | Matches the member name as a whole word when bolding it in generated MDN comments, so the `DOMPointReadOnly.y` comment bolds the standalone `y` instead of the last letter of `DOMPointReadOnly`. | 2026-11-03 |
@@ -75,15 +78,13 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 | [insta](https://github.com/mitsuhiko/insta) | [#952](https://github.com/mitsuhiko/insta/pull/952) | Checks unsigned-to-signed conversions with `try_from` in `Content::as_i64` and `as_i128` and adds a `u128` fallback for JSON map keys, so `assert_json_snapshot!` writes a `u64::MAX` key as `18446744073709551615` instead of `-1`. | 2026-10-26 |
 | [Vue DevTools](https://github.com/vuejs/devtools) | [#1179](https://github.com/vuejs/devtools/pull/1179) | Treats only ancestors on the current path as circular in `encodeValue`, so a value repeated without a cycle, like the same `Date` in `start` and `end`, shows as a real value in component state instead of `[Circular value:N]`. | 2026-10-26 |
 | [Solid](https://github.com/solidjs/solid) | [#4258](https://github.com/solidjs/solid/pull/4258) | Decodes character references in static attribute values of `html` templates once when the template is built, so `placeholder="Search&hellip;"` shows `Search…` and `&` in an `href` or component prop becomes `&`. | 2026-10-25 |
-| [VitePress](https://github.com/vuejs/vitepress) | [#5550](https://github.com/vuejs/vitepress/pull/5550) | Treats a code fence as closed only by a fence line at least as long as the opener with no info string, and passes that state to nested includes, so fenced includes no longer render `@include-start` markers with the build machine's path. | 2026-10-24 |
-| [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) | [#2330](https://github.com/SBoudrias/Inquirer.js/pull/2330) | Treats an empty `VISUAL` or `EDITOR` as unset in `@inquirer/external-editor`, so `export VISUAL=` with `EDITOR=nano` opens nano again instead of failing every `edit()` call and `editor` prompt with `LaunchEditorError`. | 2026-10-23 |
-| [Puppeteer](https://github.com/puppeteer/puppeteer) | [#15650](https://github.com/puppeteer/puppeteer/pull/15650) | Maps the `Space` key to `' '` in the WebDriver BiDi input layer, so `keyboard.press('Space')` types a space in Firefox and in Chrome over BiDi, as it already does over CDP, instead of throwing `Unknown key: "Space"`. | 2026-10-23 |
 
 ## 🏰 Guild History
 
 | Community project | Merged quests | Contribution territory |
 | --- | ---: | --- |
 | [HakanSeven12/OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) | **16** | CAD geometry, commands, expression evaluation, dimension styling, unit formatting, DWG rendering, Windows file locking, and printer integration |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | **13** | Codex/MCP reliability, Windows shells, plugin installs, analytics, cache behavior, docs, and regression coverage |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | **11** | Base-path routing, reactive frontmatter, addon preprocessing, test lifecycle cleanup, local exports, scaffold setup, slide-patch bounds, parser input validation, Monaco write-back paths, and code-fence language parsing |
 | [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | **9** | Curl import parsing, shell-safe curl and gRPCurl export, OAuth 1.0 PLAINTEXT signing, JSON template escaping, Postman API key import, UUID v6 timestamps, and XPath attribute and text-node values |
 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | **9** | Desktop OAuth, deep links, packaging, startup cleanup, RPC security, AppImage release safety, Windows contributor setup, and Windows installer failure reporting |
@@ -129,7 +130,9 @@ Community repositories with one merged contribution so far:
 | [agegr/pi-web](https://github.com/agegr/pi-web) | Wrapper process lifecycle, signal forwarding, and exit statuses |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Accessible keyboard navigation for diagram gallery choices |
 | [chaijs/chai](https://github.com/chaijs/chai) | `.empty` rejection of async and generator functions |
+| [console-rs/indicatif](https://github.com/console-rs/indicatif) | Re-adding existing `MultiProgress` members |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | Remote install manifest size enforcement |
+| [fmtlib/fmt](https://github.com/fmtlib/fmt) | Generic path formatting for wide strings |
 | [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) | Unknown collation handling in the handshake with and without a charset |
 | [honojs/hono](https://github.com/honojs/hono) | Base-path resolution for regex route params |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | CLI benchmark failure accounting by response envelope |
@@ -141,8 +144,8 @@ Community repositories with one merged contribution so far:
 | [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | Nested protocol metadata normalization and header precedence |
 | [NVIDIA/cuda-rust](https://github.com/NVIDIA/cuda-rust) | Early validation for variadic CUDA device extern declarations |
 | [OmniNull/OmniWM](https://github.com/OmniNull/OmniWM) | Complete public CLI and IPC command reference |
+| [open-cli-tools/concurrently](https://github.com/open-cli-tools/concurrently) | Input routing for commands without a name |
 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | Geographic-to-planar projection for buffer processing |
-| [pacifio/atlas](https://github.com/pacifio/atlas) | Agent turn epoch handling and late transcript events |
 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | Sanity-check data correctness and regression coverage |
 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | Cross-platform repository symlink integrity |
 | [pnpm/pnpm](https://github.com/pnpm/pnpm) | Prerelease range-style preservation across TypeScript and Rust update paths |
@@ -154,6 +157,7 @@ Community repositories with one merged contribution so far:
 | [supertone-oss-archive/supertonic](https://github.com/supertone-oss-archive/supertonic) | Multi-language CLI option documentation |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Language-aware Latin correction across OCR capture paths |
 | [trpc/trpc](https://github.com/trpc/trpc) | Cursor forwarding in `createServerSideHelpers` infinite helpers |
+| [tryatlas/atlas](https://github.com/tryatlas/atlas) | Agent turn epoch handling and late transcript events |
 | [unjs/unhead](https://github.com/unjs/unhead) | Closing-tag detection for extracted script, style, and title content |
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Weekend-relative date resolution |
 | [vuejs/eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) | `ignore` and `ignoreParents` options for `v-bind:slot` in `no-deprecated-slot-attribute` |
@@ -166,16 +170,14 @@ Community repositories with one merged contribution so far:
 
 ## 🔥 Active Quest Queue
 
-The newest open contributions waiting for maintainer review, ordered by creation time. **90** are open in total; the 20 most recent are listed here.
+The newest open contributions waiting for maintainer review, ordered by creation time. **87** are open in total; the 20 most recent are listed here.
 
 | Project | PR | Quest in progress |
 | --- | --- | --- |
 | [msgspec](https://github.com/msgspec/msgspec) | [#1320](https://github.com/msgspec/msgspec/pull/1320) | Caps the integer part of each ISO 8601 duration segment at the largest `timedelta` in seconds rather than `2**47`, so day counts like `P106751991167301D` raise `ValidationError` instead of wrapping to a wrong `timedelta` or a bare `OverflowError`. |
 | [Floating UI](https://github.com/floating-ui/floating-ui) | [#3540](https://github.com/floating-ui/floating-ui/pull/3540) | Skips disabled cells when `useListNavigation` or `Composite` loops vertically in a grid with `cols > 1`, so `ArrowUp` from the top row lands on the nearest enabled item in the column and `ArrowDown` wraps even when every cell below is disabled. |
-| [concurrently](https://github.com/open-cli-tools/concurrently) | [#640](https://github.com/open-cli-tools/concurrently/pull/640) | Registers a command as an input target under its name only when it has one, so with `--handle-input` a line like `:observer.start()` goes unchanged to the default target instead of reaching the last unnamed command with its colon stripped. |
 | [insta](https://github.com/mitsuhiko/insta) | [#958](https://github.com/mitsuhiko/insta/pull/958) | Writes an indentation indicator such as `\|2-` for YAML literal blocks whose first line starts with a space or tab, so with `INSTA_YAML_BLOCK_STYLE=1` that leading whitespace survives a read and the snapshot file still parses. |
 | [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) | [#3231](https://github.com/vuejs/eslint-plugin-vue/pull/3231) | Makes a bare `<!-- eslint-enable -->` in `<template>` clear rule-specific block disables, and `<!-- eslint-enable vue/no-v-html -->` re-enable that rule under a bare `<!-- eslint-disable -->`, so template directives turn rules back on where ESLint does instead of keeping them off until `</template>`. |
-| [indicatif](https://github.com/console-rs/indicatif) | [#854](https://github.com/console-rs/indicatif/pull/854) | Makes `MultiProgress::add` and the `insert*` methods return an existing member unchanged, as documented, so re-adding a bar no longer moves it or leaves a stale slot that stops finished bars from being pruned. |
 | [Crossterm](https://github.com/crossterm-rs/crossterm) | [#1159](https://github.com/crossterm-rs/crossterm/pull/1159) | Implements `Ord` and `PartialOrd` for `KeyEvent` on the same case-normalized fields that `eq` and `hash` use, so a `BTreeMap` or `BTreeSet` keyed by `KeyEvent` or `Event` finds Shift+letter bindings that a `HashMap` already finds. |
 | [Sarama](https://github.com/IBM/sarama) | [#3848](https://github.com/IBM/sarama/pull/3848) | Unlocks `txnLock` before the transactional `mocks.AsyncProducer` reports a message sent outside a transaction, so the violation fails fast instead of blocking `BeginTxn`, `CommitTxn`, `TxnStatus` and the next input until the `go test` timeout. |
 | [zerolog](https://github.com/rs/zerolog) | [#826](https://github.com/rs/zerolog/pull/826) | Computes `TimeFormatUnixMs` and `TimeFormatUnixMicro` values the way `UnixMilli` and `UnixMicro` do instead of dividing `UnixNano`, so times before 1678 or after 2262, like the zero `time.Time`, are no longer logged as unrelated dates. |
@@ -188,8 +190,10 @@ The newest open contributions waiting for maintainer review, ordered by creation
 | [Supabase JS SDK](https://github.com/supabase/supabase-js) | [#2790](https://github.com/supabase/supabase-js/pull/2790) | Writes the `Resources:` header with its colon when `signInWithWeb3` builds a Sign-In-With-Solana message for a wallet without `signIn()`, so the Auth server parses messages that list `resources` instead of rejecting them with 400 `validation_failed`. |
 | [Payload](https://github.com/payloadcms/payload) | [#19049](https://github.com/payloadcms/payload/pull/19049) | Sends `fallback-locale=false` when an SDK call passes `fallbackLocale: false`, so the REST API turns locale fallback off instead of filling untranslated localized fields with default-locale content. |
 | [Hugging Face Datasets](https://github.com/huggingface/datasets) | [#8891](https://github.com/huggingface/datasets/pull/8891) | Ignores `.md` and `.toml` files other than `task.toml` and `instruction.md` when inferring the builder, so folders with a `LICENSE.md` or `pyproject.toml` beside their data load with the `json`, `csv` or `fasta` builder instead of failing as a Harbor dataset. |
-| [{fmt}](https://github.com/fmtlib/fmt) | [#4999](https://github.com/fmtlib/fmt/pull/4999) | Uses the native or generic string the path formatter selected for wide output too, so `L"{:g}"` prints `C:/foo` on Windows like `"{:g}"` does instead of ignoring `g`, and wide `{:g}` and `{:?g}` keep the generic form on POSIX. |
 | [PixiJS](https://github.com/pixijs/pixijs) | [#12335](https://github.com/pixijs/pixijs/pull/12335) | Reads `x` and `y` into locals before writing in math-extras `Point.rotate`, so `p.rotate(radians, p)` on a `Point` or `ObservablePoint` no longer computes `y` from the already rotated `x`. |
+| [axum](https://github.com/tokio-rs/axum) | [#3972](https://github.com/tokio-rs/axum/pull/3972) | Returns `None` from `Option<Path<T>>` and `Option<InnerPath<T>>` on a route without captures for every `T`, not only scalars and tuples, so a struct target on `/users` no longer gets a 400 `missing field` error. |
+| [chi](https://github.com/go-chi/chi) | [#1240](https://github.com/go-chi/chi/pull/1240) | Collapses consecutive `/*/` subrouter connectors in `Walk` the same way `RoutePattern()` does, so a `Route("/")` inside a mounted subrouter is walked as `/v1/resources/{resource_id}` instead of keeping a stray `/*`. |
+| [Vue Router](https://github.com/vuejs/router) | [#2860](https://github.com/vuejs/router/pull/2860) | Reads quoted `definePage()` keys such as `'name'` and `'alias'` at build time, as it already does for identifier keys, so they are no longer stripped unread and a quoted `'meta'` still reaches the route. |
 
 ## 🎒 Inventory / Tech Stack
 
