@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20261107)
+![Ngo Quoc Viet — open-source adventurer](./assets/rpg-hero.svg?v=20261111)
 
 [![GitHub](https://img.shields.io/badge/GitHub-NgoQuocViet2001-183143?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NgoQuocViet2001)
 [![Portfolio](https://img.shields.io/badge/Portfolio-viet--ngo.hinadau.vip-315A83?style=for-the-badge)](https://viet-ngo.hinadau.vip)
@@ -25,17 +25,17 @@ My favorite contributions are the ones maintainers can immediately use: broken r
 
 ## 📊 Adventure Log
 
-Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-11-07**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
+Public contribution data for [`NgoQuocViet2001`](https://github.com/NgoQuocViet2001), refreshed **2026-11-11**. The merged count covers public PRs submitted from this account and accepted into repositories it does not own during the preceding 12 months.
 
 <div align="center">
-  <img src="./assets/github-activity.svg?v=20261107" alt="Retro RPG board showing 195 merged pull requests across 77 community repositories and 87 active pull requests" width="1200" />
+  <img src="./assets/github-activity.svg?v=20261111" alt="Retro RPG board showing 199 merged pull requests across 81 community repositories and 82 active pull requests" width="1200" />
 </div>
 
 | Stat | Total | Meaning |
 | --- | ---: | --- |
-| **Merged quests** | **195** | External PRs merged by community maintainers in the last 12 months |
-| **Worlds visited** | **77** | Community repositories with at least one merged contribution |
-| **Active quests** | **87** | External PRs currently open for maintainer review |
+| **Merged quests** | **199** | External PRs merged by community maintainers in the last 12 months |
+| **Worlds visited** | **81** | Community repositories with at least one merged contribution |
+| **Active quests** | **82** | External PRs currently open for maintainer review |
 
 ## ⚔️ Latest Quests Cleared
 
@@ -43,6 +43,10 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 
 | Project | PR | Quest result | Merged |
 | --- | --- | --- | --- |
+| [Vue Router](https://github.com/vuejs/router) | [#2860](https://github.com/vuejs/router/pull/2860) | Reads quoted `definePage()` keys such as `'name'` and `'alias'` at build time, as it already does for identifier keys, so they are no longer stripped unread and a quoted `'meta'` still reaches the route. | 2026-11-10 |
+| [h3](https://github.com/h3js/h3) | [#1615](https://github.com/h3js/h3/pull/1615) | Keeps `iterable()` reading until it enqueues a chunk or the iterator ends, so skipped `undefined` values, or values the serializer turns into `undefined`, no longer leave a read pending and the response always finishes. | 2026-11-10 |
+| [Socket.IO](https://github.com/socketio/socket.io) | [#5574](https://github.com/socketio/socket.io/pull/5574) | Keeps everything after the first `=` when the client decodes a query string, so `?token=abc==&flag` reaches the server as `{ token: "abc==", flag: "" }` instead of `abc` and the string `"undefined"`. | 2026-11-10 |
+| [Claude Code Templates](https://github.com/davila7/claude-code-templates) | [#551](https://github.com/davila7/claude-code-templates/pull/551) | Fixes the attribution and license links in `cli-tool/README.md` so they resolve from the `cli-tool/` folder. | 2026-11-08 |
 | [concurrently](https://github.com/open-cli-tools/concurrently) | [#640](https://github.com/open-cli-tools/concurrently/pull/640) | Registers a command as an input target under its name only when it has one, so with `--handle-input` a line like `:observer.start()` goes unchanged to the default target instead of reaching the last unnamed command with its colon stripped. | 2026-11-07 |
 | [{fmt}](https://github.com/fmtlib/fmt) | [#4999](https://github.com/fmtlib/fmt/pull/4999) | Uses the native or generic string the path formatter selected for wide output too, so `L"{:g}"` prints `C:/foo` on Windows like `"{:g}"` does instead of ignoring `g`, and wide `{:g}` and `{:?g}` keep the generic form on POSIX. | 2026-11-06 |
 | [indicatif](https://github.com/console-rs/indicatif) | [#854](https://github.com/console-rs/indicatif/pull/854) | Makes `MultiProgress::add` and the `insert*` methods return an existing member unchanged, as documented, so re-adding a bar no longer moves it or leaves a stale slot that stops finished bars from being pruned. | 2026-11-05 |
@@ -74,10 +78,6 @@ The most recent merges, newest first. Earlier merged work is summarized in the G
 | [Ghost](https://github.com/TryGhost/Ghost) | [#32192](https://github.com/TryGhost/Ghost/pull/32192) | Maps the `kg-style-accent` class to `accent` and only converts inline button colours when parsing CTA cards from HTML, so brand colour buttons are no longer stored as `#00NaNNaN` and keep the accent style in newsletters. | 2026-10-27 |
 | [vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | [#2441](https://github.com/microsoft/vscode-js-debug/pull/2441) | Keeps the outer range's end when `Range.simplify` merges a range nested inside it, so the step `skipList` for WASM/DWARF frames no longer cuts off the tail of a region that should be skipped. | 2026-10-26 |
 | [vscode-languageserver-node](https://github.com/microsoft/vscode-languageserver-node) | [#1918](https://github.com/microsoft/vscode-languageserver-node/pull/1918) | Counts the change annotations passed to `new WorkspaceChange(edit)` and skips ids already in use, so wrapping an existing `WorkspaceEdit` keeps its labels and `needsConfirmation` and adding an annotation no longer throws `Id 1 is already in use`. | 2026-10-26 |
-| [MiniJinja](https://github.com/mitsuhiko/minijinja) | [#979](https://github.com/mitsuhiko/minijinja/pull/979) | Splits a comma-separated `attribute` list in the Go `sort` filter and, in Go and Rust, compares the string parts of such composite keys case-insensitively like Jinja2, so `sort(attribute="name, state")` no longer returns items in their original order. | 2026-10-26 |
-| [insta](https://github.com/mitsuhiko/insta) | [#952](https://github.com/mitsuhiko/insta/pull/952) | Checks unsigned-to-signed conversions with `try_from` in `Content::as_i64` and `as_i128` and adds a `u128` fallback for JSON map keys, so `assert_json_snapshot!` writes a `u64::MAX` key as `18446744073709551615` instead of `-1`. | 2026-10-26 |
-| [Vue DevTools](https://github.com/vuejs/devtools) | [#1179](https://github.com/vuejs/devtools/pull/1179) | Treats only ancestors on the current path as circular in `encodeValue`, so a value repeated without a cycle, like the same `Date` in `start` and `end`, shows as a real value in component state instead of `[Circular value:N]`. | 2026-10-26 |
-| [Solid](https://github.com/solidjs/solid) | [#4258](https://github.com/solidjs/solid/pull/4258) | Decodes character references in static attribute values of `html` templates once when the template is built, so `placeholder="Search&hellip;"` shows `Search…` and `&` in an `href` or component prop becomes `&`. | 2026-10-25 |
 
 ## 🏰 Guild History
 
@@ -131,9 +131,11 @@ Community repositories with one merged contribution so far:
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Accessible keyboard navigation for diagram gallery choices |
 | [chaijs/chai](https://github.com/chaijs/chai) | `.empty` rejection of async and generator functions |
 | [console-rs/indicatif](https://github.com/console-rs/indicatif) | Re-adding existing `MultiProgress` members |
+| [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI README relative links |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | Remote install manifest size enforcement |
 | [fmtlib/fmt](https://github.com/fmtlib/fmt) | Generic path formatting for wide strings |
 | [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) | Unknown collation handling in the handshake with and without a charset |
+| [h3js/h3](https://github.com/h3js/h3) | `iterable()` streaming past skipped values |
 | [honojs/hono](https://github.com/honojs/hono) | Base-path resolution for regex route params |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | CLI benchmark failure accounting by response envelope |
 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | Quiz completion driven by each quiz's own question count |
@@ -154,6 +156,7 @@ Community repositories with one merged contribution so far:
 | [reduxjs/redux-toolkit](https://github.com/reduxjs/redux-toolkit) | Bracketed query parameter grouping in RTK Query OpenAPI codegen |
 | [rollup/rollup](https://github.com/rollup/rollup) | CRLF-safe line-break removal when suppressing ASI |
 | [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) | CLI argument validation before authentication |
+| [socketio/socket.io](https://github.com/socketio/socket.io) | Client query values that contain `=` |
 | [supertone-oss-archive/supertonic](https://github.com/supertone-oss-archive/supertonic) | Multi-language CLI option documentation |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Language-aware Latin correction across OCR capture paths |
 | [trpc/trpc](https://github.com/trpc/trpc) | Cursor forwarding in `createServerSideHelpers` infinite helpers |
@@ -162,6 +165,7 @@ Community repositories with one merged contribution so far:
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Weekend-relative date resolution |
 | [vuejs/eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) | `ignore` and `ignoreParents` options for `v-bind:slot` in `no-deprecated-slot-attribute` |
 | [vuejs/pinia](https://github.com/vuejs/pinia) | HMR updates for store properties that change kind |
+| [vuejs/router](https://github.com/vuejs/router) | Quoted `definePage()` keys at build time |
 | [vuejs/test-utils](https://github.com/vuejs/test-utils) | `findComponent` ref lookups on SVG and other non-HTML elements |
 | [webpro-nl/knip](https://github.com/webpro-nl/knip) | Pipe escaping for symbols in the markdown reporter |
 | [withastro/astro](https://github.com/withastro/astro) | Page-directory boundary correctness and regression coverage |
@@ -170,7 +174,7 @@ Community repositories with one merged contribution so far:
 
 ## 🔥 Active Quest Queue
 
-The newest open contributions waiting for maintainer review, ordered by creation time. **87** are open in total; the 20 most recent are listed here.
+The newest open contributions waiting for maintainer review, ordered by creation time. **82** are open in total; the 20 most recent are listed here.
 
 | Project | PR | Quest in progress |
 | --- | --- | --- |
@@ -193,7 +197,7 @@ The newest open contributions waiting for maintainer review, ordered by creation
 | [PixiJS](https://github.com/pixijs/pixijs) | [#12335](https://github.com/pixijs/pixijs/pull/12335) | Reads `x` and `y` into locals before writing in math-extras `Point.rotate`, so `p.rotate(radians, p)` on a `Point` or `ObservablePoint` no longer computes `y` from the already rotated `x`. |
 | [axum](https://github.com/tokio-rs/axum) | [#3972](https://github.com/tokio-rs/axum/pull/3972) | Returns `None` from `Option<Path<T>>` and `Option<InnerPath<T>>` on a route without captures for every `T`, not only scalars and tuples, so a struct target on `/users` no longer gets a 400 `missing field` error. |
 | [chi](https://github.com/go-chi/chi) | [#1240](https://github.com/go-chi/chi/pull/1240) | Collapses consecutive `/*/` subrouter connectors in `Walk` the same way `RoutePattern()` does, so a `Route("/")` inside a mounted subrouter is walked as `/v1/resources/{resource_id}` instead of keeping a stray `/*`. |
-| [Vue Router](https://github.com/vuejs/router) | [#2860](https://github.com/vuejs/router/pull/2860) | Reads quoted `definePage()` keys such as `'name'` and `'alias'` at build time, as it already does for identifier keys, so they are no longer stripped unread and a quoted `'meta'` still reaches the route. |
+| [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | [#20612](https://github.com/tailwindlabs/tailwindcss/pull/20612) | Rebases the `url()`s that sit next to an `image-set()` in an imported stylesheet, so Vite no longer warns about and drops images like `overlay.png`, while the URLs inside `image-set()` are still rewritten only once. |
 
 ## 🎒 Inventory / Tech Stack
 
